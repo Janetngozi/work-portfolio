@@ -1,0 +1,88 @@
+const Experience = () => {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#47A025]  ">
+      <button className="font-[500px] text-[14px] bg-[#241023] p-2 rounded-2xl">
+        My Professional Journey
+      </button>
+      <h1 className="font-[400px] text-[48px]">Work Experience</h1>
+      <div class="w-34 h-4  rounded-full overflow-hidden pl-5">
+        <div class="h-2 w-3/4 bg-gradient-to-r from-teal-400 to-purple-600 rounded-full"></div>
+      </div>
+
+
+<div className="flex flex-col justify-center items-center gap-5">
+    <div className="flex  items-center ml-40 ">
+
+    <div className="bg-[#241023] opacity-70 transition-colors duration-500 ease-in-out w-[45%] p-10   rounded-lg hover:bg-[#ffffff] hover:opacity-60  hover:text-[#241023] font-bold">
+        <div className="flex justify-between w-full items-center">
+
+        <div className="flex flex-col">
+
+        <h1>Frontend Developer</h1>
+        <h2>Voyaji Travels</h2>
+        </div>
+        <button className="p-2 rounded-2xl bg-[#47A025]">March 2025 - Present</button>
+        </div>
+
+        <ul className="list-none space-y-2">
+            <li>✅ Collaborate in a dynamic 3-person frontend team to bring user interfaces to life using React.js, Tailwind CSS, and industry-standard libraries.</li>
+            <li>✅ Convert high-fidelity UI/UX designs from Figma into responsive and accessible web pages, ensuring consistency across all devices.</li>
+            <li>✅ Convert high-fidelity UI/UX designs from Figma into responsive and accessible web pages, ensuring consistency across all devices.</li>
+            <li>✅ Participate in cross-functional team meetings with project managers, backend developers, and designers to clarify requirements, set deadlines, and provide feedback on design feasibility.</li>
+            <li>✅ Share tasks among frontend team members, manage individual KPIs, and coordinate with backend engineers to integrate APIs and dynamic data seamlessly.</li>
+            <li>✅ Proactively implement UI tweaks and design improvements based on feedback from stakeholders and internal testing.</li>
+            <li>✅ Utilize modern frontend development practices such as reusable components, version control (Git), and deployment workflows.</li>
+            
+        </ul>
+        <div className=""></div>
+    </div>
+    </div>
+
+
+<div className="flex justify-center mr-15 items-center">
+<div className="basis-1/2"></div>
+    <div className="bg-[#241023] opacity-70 transition-colors duration-500 ease-in-out  w-[40%] p-10  rounded-lg hover:bg-[#ffffff] hover:opacity-60  hover:text-[#241023] font-bold">
+        <div className="flex justify-between w-full items-center">
+            <div className="flex flex-col">
+                <h2>Personal & Practice Projects</h2>
+                <h3>Frontend Developer (Freelance & Personal Projects)</h3>
+            </div>
+            <button className="p-2 rounded-2xl bg-[#47A025]">Ongoing</button>
+        </div>
+
+        <ul className="list-none space-y-2">
+            <li>✅ Built and deployed over 15+ responsive websites and web applications using HTML, CSS, JavaScript, Bootstrap, and React.js—including e-commerce stores, business websites, and UI challenges.</li>
+            <li>✅ Developed a Product List with Cart app allowing users to browse items, add to cart, and calculate total cost, mimicking real-world online shopping flows.</li>
+            <li>✅ Cloned core features of the Amazon e-commerce website, implementing navigation, product cards, and cart functionality using React state and components.
+
+</li>
+            <li>✅ Created interactive web applications like calculators, to-do lists, and dynamic landing pages from scratch—often inspired by Frontend Mentor challenges or original Figma designs.
+
+</li>
+            <li>✅ Prioritize mobile responsiveness, performance, and clean code architecture in every project to mirror real-life client expectations.</li>
+        
+            
+        </ul>
+
+    </div>
+</div>
+
+
+
+
+    
+</div>
+
+
+
+
+
+
+
+
+
+    </div>
+  );
+};
+
+export default Experience;
