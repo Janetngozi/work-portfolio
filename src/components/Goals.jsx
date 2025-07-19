@@ -2,19 +2,19 @@ import { Rocket, Target, ChartColumnBig } from "lucide-react";
 
 const Goals = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#47A025] pt-10  ">
+    <div className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023] pt-10  ">
       <button className="font-[500px] text-[14px] bg-[#241023] p-2 rounded-2xl">
         My RoadMap
       </button>
       <h1 className="font-[400px] text-[48px]">Career Goals</h1>
       <div class="w-34 h-4  rounded-full overflow-hidden pl-5">
-        <div class="h-2 w-3/4 bg-gradient-to-r from-teal-400 to-purple-600 rounded-full"></div>
+        <div class="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 rounded-full"></div>
       </div>
       <div className="flex justify-between items-center gap-[30px] px-10 font-bold">
-        <div className="p-10 flex flex-col border-[#241023] bg-[#241023] opacity-70 transition-colors duration-500 ease-in-out gap-4 rounded-xl hover:bg-[#ffffff] hover:opacity-60  hover:text-[#241023]">
+        <div className="p-10 flex flex-col  bg-[#241023] border border-[#47A025] transition-colors duration-500 ease-in-out gap-4 rounded-xl ">
           <div className="flex gap-4">
-            <span className="text-[#ffffff] hover:text-[#000000]">
-              <Rocket/>
+            <span className="text-[#ffffff]">
+              <Rocket />
             </span>
             Short-Term Goal
           </div>
@@ -26,9 +26,9 @@ const Goals = () => {
             collaborations, or productized services.
           </p>
         </div>
-        <div className="p-10 flex flex-col border-[#241023] bg-[#241023] opacity-70 gap-4 transition-colors duration-500 ease-in-out rounded-xl hover:bg-[#ffffff] hover:opacity-60  hover:text-[#241023]">
+        <div className="p-10 flex flex-col border-[#47A025] border bg-[#241023]  gap-4 transition-colors duration-500 ease-in-out rounded-xl ">
           <div className="flex gap-4 ">
-            <span className="text-[#ffffff] hover:text-[#000000]">
+            <span className="text-[#ffffff]">
               <ChartColumnBig />
             </span>
             Mid-Term Goal
@@ -42,9 +42,9 @@ const Goals = () => {
             developers and give back to the tech community.
           </p>
         </div>
-        <div className="p-10 flex flex-col border-[#241023] bg-[#241023] opacity-70 gap-4 transition-colors duration-500 ease-in-out rounded-xl hover:bg-[#ffffff] hover:opacity-60  hover:text-[#241023]">
+        <div className="p-10 flex flex-col border-[#47A025] border bg-[#241023]  gap-4 transition-colors duration-500 ease-in-out rounded-xl ">
           <div className="flex gap-4">
-            <span className="text-[#ffffff] hover:text-[#000000]">
+            <span className="text-[#ffffff]">
               <Target />
             </span>
             Long-Term Goal

@@ -1,18 +1,18 @@
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#47A025] pt-10 pb-10">
-      <button className="font-[500px] text-[14px] bg-[#241023] p-2 rounded-2xl">
+    <div className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023] pt-10 pb-10">
+      <button className="font-[500px] text-[14px] bg-[#47A025] p-2 rounded-2xl">
         My Journey
       </button>
       <h1 className="font-[400px] text-[48px]">About Me</h1>
       <div class="w-34 h-4  rounded-full overflow-hidden pl-5">
-        <div class="h-2 w-3/4 bg-gradient-to-r from-teal-400 to-purple-600 rounded-full"></div>
+        <div class="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 rounded-full"></div>
       </div>
-      <div className="flex justify-center gap-[100px] items-center  mt-8">
+      <div className="flex justify-center gap-[100px] items-center   mt-8">
         <img src="./images/janet.jpg" alt="" className="w-1/4 rounded-xl h-[100%]" />
-        <div className="w-2/4 border-[#241023] px-10 py-5 relative bg-[#241023] opacity-70 transition-colors duration-500 ease-in-out rounded-xl hover:bg-[#ffffff] hover:opacity-60  hover:text-[#241023] ">
+        <div className="w-2/4 border-[#47A025] border-solid border px-10 py-5 relative   transition-colors duration-500 ease-in-out rounded-xl  ">
         
-          <p className="text-[#ffffff] hover:text-[#241023]  text-[20px] pb-5 text-shadow-xl font-bold">
+          <p className="text-[#ffffff]   text-[20px] pb-5 text-shadow-xl font-bold">
             Hi, I’m Janet, a passionate Frontend Developer who transforms ideas
             into clean, responsive, and user-focused web experiences. My journey
             into tech started after graduation, during a period of uncertainty.
@@ -28,9 +28,9 @@ const About = () => {
             intuitive, and lasting digital experiences. Let’s build something
             great together.
           </p>
-          <hr className=" h-[1px] bg-[#ccc;] hover:text-[#241023]"></hr>
-          <div className="flex flex-col gap-5 mt-5 hover:text-[#241023] font-bold">
-            <div className="flex items-center justify-between hover:text-[#241023]">
+          <hr className=" h-[1px] bg-[#ccc;] "></hr>
+          <div className="flex flex-col gap-5 mt-5  font-bold">
+            <div className="flex items-center justify-between ">
               <p>
                 Name
                 <br />
@@ -42,7 +42,7 @@ const About = () => {
                 janetodoemene@gmail.com
               </p>
             </div>
-            <p className="hover:text-[#241023]">
+            <p className="">
               Availability
               <br />
               Open to opportunities
