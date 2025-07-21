@@ -5,7 +5,7 @@ import Goals from "./components/Goals";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Experience />
       <Projects />
       <Skills />
+      <Testimonials />
     </>
   );
 }
