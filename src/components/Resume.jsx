@@ -1,21 +1,41 @@
+import { Eye, Download } from "lucide-react";
+
 const Resume = () => {
-    return (
-<div className="flex flex-col items-center justify-center min-h-screen text-white bg-[#241023] overflow-hidden px-5 pb-10 ">
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen text-white bg-[#241023] overflow-hidden px-5 pb-10 ">
       <button className="font-medium text-[14px] bg-[#47A025]/50 px-4 py-2 mb-3 rounded-2xl">
         My Professional Background
       </button>
-      <h1 className="text-[36px] font-normal md:text-[48px] mb-2">
-        Resume
-      </h1>
+      <h1 className="text-[36px] font-normal md:text-[48px] mb-2">Resume</h1>
       <div className="w-34 h-4  rounded-full overflow-hidden ">
         <div className="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 ml-5 rounded-full"></div>
       </div>
 
-
-
-
-</div>
-    )
+      <p>
+        You can explore my professional experience and skills directly in your
+        browser or download a PDF version for easy reference.
+      </p>
+      <div className="flex space-x-5 mt-8">
+        <a
+          href="https://drive.google.com/file/d/1S5fDz1pZoo4qliADBE9FeBQyH8BytomK/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#47A025]/50 flex rounded-sm px-6 py-1 items-center gap-4 text-white cursor-pointer "
+        >
+          <span>
+            <Eye />
+          </span>
+          View Online
+        </a>
+        <button className="border-solid flex  border-[1px] border-[#ffffff] rounded-sm px-8 py-2 items-center text-white cursor-pointer gap-4">
+          <span>
+            <Download />
+          </span>
+          Download CV (.pdf)
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default Resume;

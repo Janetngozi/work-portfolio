@@ -5,7 +5,7 @@ import {ChevronDown, ChevronUp} from 'lucide-react';
 
 
 const Faq = () => {
-    const [openItems, setOpenItems] = useState({});
+    const [openItemId, setOpenItemId] = useState(null);
 
 const faqData = [
     {
@@ -36,10 +36,7 @@ const faqData = [
   ];
 
 const toggleItem = (id) => {
-    setOpenItems(prev => ({
-      ...prev,
-      [id]: !prev[id]
-    }));
+    setOpenItemId(prev => (prev === id ? null : id));
   };
 
 
@@ -71,7 +68,7 @@ const toggleItem = (id) => {
                   {item.question}
                 </h3>
                 <div className="text-cyan-400 flex-shrink-0">
-                  {openItems[item.id] ? (
+                  {openItemId === item.id ? (
                     <ChevronUp size={20} color="#47A025" />
                   ) : (
                     <ChevronDown size={20} color="#47A025"/>
@@ -82,7 +79,7 @@ const toggleItem = (id) => {
               {/* Answer Content */}
               <div
                 className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                  openItems[item.id] 
+                  openItemId === item.id 
                     ? 'max-h-96 opacity-100' 
                     : 'max-h-0 opacity-0'
                 }`}
