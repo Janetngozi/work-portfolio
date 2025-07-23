@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023]  ">
-      <button className="font-[500px] text-[14px] bg-[#border-[#47A025]] p-2 rounded-2xl">
+      <button className="font-[500px] text-[14px] bg-[#47A025]/50 px-4 py-2 rounded-2xl">
         My Professional Journey
       </button>
       <h1 className="font-[400px] text-[48px]">Work Experience</h1>
@@ -11,13 +11,13 @@ const Experience = () => {
 
       <div className="flex flex-col justify-center items-center gap-5">
         <div className="flex  items-center ml-40 ">
-          <div className="bg-[#241023] opacity-70 transition-colors duration-500 ease-in-out w-[45%] p-10 border border-[#47A025]   rounded-lg font-bold">
+          <div className="bg-[#241023]  transition-colors duration-500 ease-in-out  w-[40%] p-10  rounded-lg  border  font-bold  flex flex-col   gap-4  backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden  hover:border-[#47A025]/50">
             <div className="flex justify-between w-full items-center">
               <div className="flex flex-col">
                 <h1>Frontend Developer</h1>
                 <h2>Voyaji Travels</h2>
               </div>
-              <button className="p-2 rounded-2xl bg-[#47A025]">
+              <button className="px-4 py-2 rounded-2xl bg-[#47A025]/50">
                 March 2025 - Present
               </button>
             </div>
@@ -71,13 +71,13 @@ const Experience = () => {
 
         <div className="flex justify-center mr-15 items-center">
           <div className="basis-1/2"></div>
-          <div className="bg-[#241023]  transition-colors duration-500 ease-in-out  w-[40%] p-10  rounded-lg  border border-[#47A025] font-bold">
+          <div className="bg-[#241023]  transition-colors duration-500 ease-in-out  w-[40%] p-10  rounded-lg  border  font-bold  flex flex-col   gap-4  backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden  hover:border-[#47A025]/50">
             <div className="flex justify-between w-full items-center">
               <div className="flex flex-col">
                 <h2>Personal & Practice Projects</h2>
                 <h3>Frontend Developer (Freelance & Personal Projects)</h3>
               </div>
-              <button className="p-2 rounded-2xl bg-[#47A025]">Ongoing</button>
+              <button className="px-6 py-2 rounded-2xl bg-[#47A025]/50">Ongoing</button>
             </div>
 
             <ul className="list-none space-y-2">

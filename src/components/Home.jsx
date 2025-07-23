@@ -4,13 +4,14 @@ import { CiMail } from "react-icons/ci";
 import { FaThreads } from "react-icons/fa6";
 import { PiTiktokLogo } from "react-icons/pi";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import 'animate.css';
 
 const Home = () => {
   return (
     <div className="bg-[#241023] text-white flex flex-col items-center justify-center min-h-screen relative z-2">
       <div className="bg-[url('./images/download.png')] absolute h-full w-full top-0 opacity-50"></div>
       <div className="relative text-center text-[#ffffff]">
-        <h2 className="text-[36px] font-bold text-[#47A025]">Hi I'm Janet!</h2>
+        <h2 className="text-[36px] font-bold text-[#47A025] animate__animated animate__bounce">Hi, I'm Janet!</h2>
         <h1 className="text-5xl text-[#47A025]">
           I build beautiful, fast, responsive websites.
         </h1>
@@ -20,7 +21,7 @@ const Home = () => {
         </p>
       </div>
       <div className="flex space-x-4 mt-8">
-        <button className="bg-[#47A025] flex rounded-sm p-2 items-center space-x-2 text-white cursor-pointer">
+        <button className="bg-[#47A025]/50 flex rounded-sm p-2 items-center space-x-2 text-white cursor-pointer">
           View Projects
           <span>
             <IoIosArrowRoundForward />

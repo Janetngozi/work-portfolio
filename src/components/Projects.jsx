@@ -2,8 +2,8 @@ import { Cable, CalendarDays } from "lucide-react";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023]  ">
-      <button className="font-[500px] text-[14px] bg-[#47A025] p-2 rounded-2xl">
+    <div className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023] pt-20  ">
+      <button className="font-[500px] text-[14px] bg-[#47A025]/50 px-4 py-2 rounded-2xl">
         My Recent work
       </button>
       <h1 className="font-[400px] text-[48px]">Featured Projects</h1>
@@ -13,7 +13,7 @@ const Projects = () => {
       {/* cards */}
       <div class="grid md:grid-cols-3 gap-8">
         {/* first project */}
-        <div class="max-w-md mx-auto text-white rounded-xl shadow-lg overflow-hidden border border-gray-700 bg-[#241023] transition-colors duration-500 ease-in-out">
+        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://productcart-six.vercel.app/" target="_blank">
             <img
@@ -43,7 +43,7 @@ const Projects = () => {
               <span class="flex items-center gap-1 pr-20">
                 <Cable />
                 status:
-                <span class="bg-[#47A025] text-white text-xs px-2 py-1 rounded">
+                <span class="bg-[#47A025]/50 text-white text-xs px-2 py-1 rounded">
                   Completed
                 </span>
               </span>
@@ -75,14 +75,14 @@ const Projects = () => {
               <a
                 href="https://productcart-six.vercel.app/"
                 target="_blank"
-                class="flex-1 text-center bg-[#47A025] hover:opacity-90 py-2 px-4 rounded text-sm transition"
+                class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
                 Live Demo
               </a>
             </div>
           </div>
         </div>
-        <div class="max-w-md mx-auto text-white rounded-xl shadow-lg overflow-hidden border border-gray-700 bg-[#241023] transition-colors duration-500 ease-in-out">
+        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://food-wagon-psi.vercel.app/" target="_blank">
             <img
@@ -113,7 +113,7 @@ const Projects = () => {
               <span class="flex items-center gap-1 pr-20">
                 <Cable />
                 status:
-                <span class="bg-[#47A025] text-white text-xs px-2 py-1 rounded">
+                <span class="bg-[#47A025]/50 text-white text-xs px-2 py-1 rounded">
                   Completed
                 </span>
               </span>
@@ -145,14 +145,14 @@ const Projects = () => {
               <a
                 href="https://food-wagon-psi.vercel.app/"
                 target="_blank"
-                class="flex-1 text-center bg-[#47A025] hover:opacity-90 py-2 px-4 rounded text-sm transition"
+                class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
                 Live Demo
               </a>
             </div>
           </div>
         </div>
-        <div class="max-w-md mx-auto text-white rounded-xl shadow-lg overflow-hidden border border-gray-700 bg-[#241023] transition-colors duration-500 ease-in-out">
+        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://virtualr-lac-nu.vercel.app/" target="_blank">
             <img
@@ -182,7 +182,7 @@ const Projects = () => {
               <span class="flex items-center gap-1 pr-20">
                 <Cable />
                 status:
-                <span class="bg-[#47A025] text-white text-xs px-2 py-1 rounded">
+                <span class="bg-[#47A025]/50 text-white text-xs px-2 py-1 rounded">
                   Completed
                 </span>
               </span>
@@ -214,18 +214,18 @@ const Projects = () => {
               <a
                 href="https://virtualr-lac-nu.vercel.app/"
                 target="_blank"
-                class="flex-1 text-center bg-[#47A025] hover:opacity-90 py-2 px-4 rounded text-sm transition"
+                class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
                 Live Demo
               </a>
             </div>
           </div>
         </div>
-        <div class="max-w-md mx-auto text-white rounded-xl shadow-lg overflow-hidden border border-gray-700 bg-[#241023] transition-colors duration-500 ease-in-out">
+        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://work-portfolio-kappa.vercel.app/" target="_blank">
             <img
-              src="/images/portfolio.png"
+              src="/images/portfoliotwo.png"
               alt="Project Screenshot"
               class="w-full h-52 object-cover"
             />
@@ -251,7 +251,7 @@ const Projects = () => {
               <span class="flex items-center gap-1 pr-20">
                 <Cable />
                 status:
-                <span class="bg-[#47A025] text-white text-xs px-2 py-1 rounded">
+                <span class="bg-[#47A025]/50 text-white text-xs px-2 py-1 rounded">
                   Completed
                 </span>
               </span>
@@ -283,14 +283,14 @@ const Projects = () => {
               <a
                 href="https://work-portfolio-kappa.vercel.app/"
                 target="_blank"
-                class="flex-1 text-center bg-[#47A025] hover:opacity-90 py-2 px-4 rounded text-sm transition"
+                class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
                 Live Demo
               </a>
             </div>
           </div>
         </div>
-        <div class="max-w-md mx-auto text-white rounded-xl shadow-lg overflow-hidden border border-gray-700 bg-[#241023] transition-colors duration-500 ease-in-out">
+        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://nexcent-xi-bay.vercel.app/" target="_blank">
             <img
@@ -321,7 +321,7 @@ const Projects = () => {
               <span class="flex items-center gap-1 pr-20">
                 <Cable />
                 status:
-                <span class="bg-[#47A025] text-white text-xs px-2 py-1 rounded">
+                <span class="bg-[#47A025]/50 text-white text-xs px-2 py-1 rounded">
                   Completed
                 </span>
               </span>
@@ -353,7 +353,7 @@ const Projects = () => {
               <a
                 href="https://nexcent-xi-bay.vercel.app/"
                 target="_blank"
-                class="flex-1 text-center bg-[#47A025] hover:opacity-90 py-2 px-4 rounded text-sm transition"
+                class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
                 Live Demo
               </a>
@@ -363,7 +363,7 @@ const Projects = () => {
 
         {/* calculator */}
 
-        <div class="max-w-md mx-auto text-white rounded-xl shadow-lg overflow-hidden border border-gray-700 bg-[#241023] transition-colors duration-500 ease-in-out">
+        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a
             href="https://calculator-tailwind-nine.vercel.app/"
@@ -396,7 +396,7 @@ const Projects = () => {
               <span class="flex items-center gap-1 pr-20">
                 <Cable />
                 status:
-                <span class="bg-[#47A025] text-white text-xs px-2 py-1 rounded">
+                <span class="bg-[#47A025]/50 text-white text-xs px-2 py-1 rounded">
                   Completed
                 </span>
               </span>
@@ -428,7 +428,7 @@ const Projects = () => {
               <a
                 href="https://calculator-tailwind-nine.vercel.app/"
                 target="_blank"
-                class="flex-1 text-center bg-[#47A025] hover:opacity-90 py-2 px-4 rounded text-sm transition"
+                class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
                 Live Demo
               </a>
@@ -438,7 +438,7 @@ const Projects = () => {
 
         {/* Smileschool */}
 
-        <div class="max-w-md mx-auto text-white rounded-xl shadow-lg overflow-hidden border border-gray-700 bg-[#241023] transition-colors duration-500 ease-in-out">
+        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           <a href="https://school-page-c82u.vercel.app/" target="_blank">
             <img
               src="/images/smileschool.png"
@@ -468,7 +468,7 @@ const Projects = () => {
               <span class="flex items-center gap-1 pr-20">
                 <Cable />
                 status:
-                <span class="bg-[#47A025] text-white text-xs px-2 py-1 rounded">
+                <span class="bg-[#47A025]/50 text-white text-xs px-2 py-1 rounded">
                   Completed
                 </span>
               </span>
@@ -500,7 +500,7 @@ const Projects = () => {
               <a
                 href="https://school-page-c82u.vercel.app/"
                 target="_blank"
-                class="flex-1 text-center bg-[#47A025] hover:opacity-90 py-2 px-4 rounded text-sm transition"
+                class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
                 Live Demo
               </a>
@@ -509,7 +509,7 @@ const Projects = () => {
         </div>
 
         {/* Get Schooled */}
-        <div class="max-w-md mx-auto text-white rounded-xl shadow-lg overflow-hidden border border-gray-700 bg-[#241023] transition-colors duration-500 ease-in-out">
+        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://seren-space.vercel.app/" target="_blank">
             <img
@@ -540,7 +540,7 @@ const Projects = () => {
               <span class="flex items-center gap-1 pr-20">
                 <Cable />
                 status:
-                <span class="bg-[#47A025] text-white text-xs px-2 py-1 rounded">
+                <span class="bg-[#47A025]/50 text-white text-xs px-2 py-1 rounded">
                   Completed
                 </span>
               </span>
@@ -572,7 +572,7 @@ const Projects = () => {
               <a
                 href="https://seren-space.vercel.app/"
                 target="_blank"
-                class="flex-1 text-center bg-[#47A025] hover:opacity-90 py-2 px-4 rounded text-sm transition"
+                class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
                 Live Demo
               </a>
@@ -581,7 +581,7 @@ const Projects = () => {
         </div>
 
         {/* Serenspace */}
-        <div class="max-w-md mx-auto text-white rounded-xl shadow-lg overflow-hidden border border-gray-700 bg-[#241023] transition-colors duration-500 ease-in-out">
+        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://learn-pro2.vercel.app/" target="_blank">
             <img
@@ -612,7 +612,7 @@ const Projects = () => {
               <span class="flex items-center gap-1 pr-20">
                 <Cable />
                 status:
-                <span class="bg-[#47A025] text-white text-xs px-2 py-1 rounded">
+                <span class="bg-[#47A025]/50 text-white text-xs px-2 py-1 rounded">
                   Completed
                 </span>
               </span>
@@ -644,7 +644,7 @@ const Projects = () => {
               <a
                 href="https://learn-pro2.vercel.app/"
                 target="_blank"
-                class="flex-1 text-center bg-[#47A025] hover:opacity-90 py-2 px-4 rounded text-sm transition"
+                class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
                 Live Demo
               </a>
