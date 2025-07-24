@@ -25,7 +25,7 @@ const Home = () => {
           user-friendly, responsive web experiences.
         </p>
       </div>
-      <div className="flex space-x-4 z-10 mt-8 ">
+      <div className="flex space-x-4 z-10 mt-8 animate__animated animate__pulse">
         <button className="bg-[#47A025]/50 flex rounded-sm p-2 items-center space-x-2 text-white cursor-pointer hover:text-[#47A025] hover:bg-[#d0d4dc]">
           View Projects
           <span>
@@ -36,7 +36,7 @@ const Home = () => {
           Contact me
         </button>
       </div>
-      <div className="flex space-x-4 mt-8 text-[24px] z-10 gap-4">
+      <div className="flex space-x-4 mt-8 text-[24px] z-10 gap-4 animate__animated animate__fadeInTopLeft">
         <a
           href="https://github.com/Janetngozi"
           target="_blank"

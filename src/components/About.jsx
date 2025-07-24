@@ -7,7 +7,7 @@ const About = () => {
       <button className="font-bold text-[14px] text-[#ffffff] bg-[#47a025]/50 px-4 py-2 rounded-2xl">
         My Journey
       </button>
-      <h1 className="font-[400px] text-[48px]">About Me</h1>
+      <h1 className="font-[400px] text-[48px] animate__animated animate__tada">About Me</h1>
       <div className="w-34 h-4  rounded-full overflow-hidden pl-5">
         <div className="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 rounded-full"></div>
       </div>
@@ -17,7 +17,7 @@ const About = () => {
           alt=""
           className="w-1/4 rounded-xl h-[100%] shadow-2xl"
         />
-        <div className="w-2/4  border-solid border px-10 py-5 relative    ease-in-out rounded-xl  bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden transition-all duration-300 hover:border-[#47A025]/50">
+        <div className="w-2/4  border-solid border px-10 py-5 relative    ease-in-out rounded-xl animate__animated animate__pulse  bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden transition-all duration-300 hover:border-[#47A025]/50">
           <p className="text-[#ffffff]   text-[20px] pb-5 text-shadow-xl font-bold">
             Hi, I’m Janet, a passionate Frontend Developer who transforms ideas
             into clean, responsive, and user-focused web experiences. My journey
