@@ -227,6 +227,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <hr className="text-gray-500 w-full mt-30" />
     </div>
   );
 };

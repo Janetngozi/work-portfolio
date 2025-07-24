@@ -14,31 +14,31 @@ const Home = () => {
     >
       <div className="bg-[url('./images/download.png')] absolute  h-full w-full top-0 opacity-50"></div>
       <div className="relative z-10 text-center  text-[#ffffff]">
-        <h2 className="text-[36px] font-bold text-[#47A025] animate__animated animate__bounce">
+        <h2 className="text-[48px] font-[500px] text-[#47A025] animate__animated animate__bounce">
           Hi, I'm Janet!
         </h2>
-        <h1 className="text-5xl text-[#47A025]">
+        <h1 className="text-[72px] text-center font-[700px] text-[#47A025]">
           I build beautiful, fast, responsive websites.
         </h1>
-        <p className="text-[16px] text-[#ffffff]">
+        <p className="text-[18px] font-[400px] text-[#ffffff]">
           A passionate frontend developer with a deep love for building
           user-friendly, responsive web experiences.
         </p>
       </div>
       <div className="flex space-x-4 z-10 mt-8 ">
-        <button className="bg-[#47A025]/50 flex rounded-sm p-2 items-center space-x-2 text-white cursor-pointer">
+        <button className="bg-[#47A025]/50 flex rounded-sm p-2 items-center space-x-2 text-white cursor-pointer hover:text-[#47A025] hover:bg-[#d0d4dc]">
           View Projects
           <span>
             <IoIosArrowRoundForward />
           </span>
         </button>
-        <button className="border-solid border-[1px] border-[#ffffff] rounded-sm p-2 items-center text-white cursor-pointer">
+        <button className="border-solid border-[1px] border-[#ffffff] rounded-sm p-2 items-center text-white cursor-pointer hover:border-[#47A025]/50">
           Contact me
         </button>
       </div>
       <div className="flex space-x-4 mt-8 text-[24px] z-10 gap-4">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/Janetngozi"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
@@ -46,7 +46,7 @@ const Home = () => {
           <LuGithub />
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/janet-odoemene-0599661aa/"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
@@ -54,13 +54,13 @@ const Home = () => {
           <FiLinkedin />
         </a>
         <a
-          href="mailto:your@email.com"
+          href="mailto:janetodoemene@gmail.com"
           className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
         >
           <CiMail />
         </a>
         <a
-          href="https://threads.net/@yourusername"
+          href="https://www.threads.net/@janetoluwanifemi"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
@@ -68,7 +68,7 @@ const Home = () => {
           <FaThreads />
         </a>
         <a
-          href="https://tiktok.com/@yourusername"
+          href="https://www.tiktok.com/@janetoluwanifemi"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
@@ -79,19 +79,44 @@ const Home = () => {
       {/* vertical icons */}
       <div className="fixed left-5 z-5 top-110">
         <div className="flex space-x-4 text-[24px] gap-2 flex-col">
-          <a className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]">
+          <a
+            href="https://github.com/Janetngozi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]"
+          >
             <LuGithub />
           </a>
-          <a className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]">
+          <a
+            href="https://www.linkedin.com/in/janet-odoemene-0599661aa/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]"
+          >
             <FiLinkedin />
           </a>
-          <a className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]">
+          <a
+            href="mailto:janetodoemene@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]"
+          >
             <CiMail />
           </a>
-          <a className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]">
+          <a
+            href="https://www.threads.net/@janetoluwanifemi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]"
+          >
             <FaThreads />
           </a>
-          <a className="cursor-pointer rounded-full p-2 h-10 w-10 justify-center items-center bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]">
+          <a
+            href="https://www.tiktok.com/@janetoluwanifemi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer rounded-full p-2 h-10 w-10 justify-center items-center bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]"
+          >
             <PiTiktokLogo />
           </a>
         </div>

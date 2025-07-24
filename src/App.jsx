@@ -9,6 +9,7 @@ import Testimonials from "./components/Testimonials";
 import Faq from "./components/Faq";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
+import Final from "./components/Final";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Faq />
       <Resume />
       <Contact />
+      <Final />
     </>
   );
 }

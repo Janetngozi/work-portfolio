@@ -19,53 +19,53 @@ const Experience = () => {
           <div className="bg-[#241023]  transition-colors duration-500 ease-in-out  w-[40%] p-10  rounded-lg  border  font-bold  flex flex-col   gap-4  backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden  hover:border-[#47A025]/50">
             <div className="flex justify-between w-full items-center">
               <div className="flex flex-col">
-                <h1>Frontend Developer</h1>
-                <h2>Voyaji Travels</h2>
+                <h1 className="text-[20px] font-[700px]">Frontend Developer</h1>
+                <h2 className="text-[16px] font-normal">Voyaji Travels</h2>
               </div>
-              <button className="px-4 py-2 rounded-2xl bg-[#47A025]/50">
+              <button className="px-2 py-1 rounded-2xl bg-[#47A025]/50 text-[12px] font-normal">
                 March 2025 - Present
               </button>
             </div>
 
             <ul className="list-none space-y-2">
               <li className="flex gap-2">
-                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
+                <TiTick className="text-[#47A025]/50 h-17 w-17" />
                 Collaborate in a dynamic 3-person frontend team to bring user
                 interfaces to life using React.js, Tailwind CSS, and
                 industry-standard libraries.
               </li>
               <li className="flex gap-2">
-                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
-                Convert high-fidelity UI/UX designs from Figma into responsive
-                and accessible web pages, ensuring consistency across all
-                devices.
-              </li>
-            <li className="flex gap-2">
-                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
+                <TiTick className="text-[#47A025]/50 h-17 w-17" />
                 Convert high-fidelity UI/UX designs from Figma into responsive
                 and accessible web pages, ensuring consistency across all
                 devices.
               </li>
               <li className="flex gap-2">
-                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
+                <TiTick className="text-[#47A025]/50 h-17 w-17" />
+                Convert high-fidelity UI/UX designs from Figma into responsive
+                and accessible web pages, ensuring consistency across all
+                devices.
+              </li>
+              <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-19 w-19" />
                 Participate in cross-functional team meetings with project
                 managers, backend developers, and designers to clarify
                 requirements, set deadlines, and provide feedback on design
                 feasibility.
               </li>
               <li className="flex gap-2">
-                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
+                <TiTick className="text-[#47A025]/50 h-19 w-19" />
                 Share tasks among frontend team members, manage individual KPIs,
                 and coordinate with backend engineers to integrate APIs and
                 dynamic data seamlessly.
               </li>
               <li className="flex gap-2">
-                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
+                <TiTick className="text-[#47A025]/50 h-17 w-17" />
                 Proactively implement UI tweaks and design improvements based on
                 feedback from stakeholders and internal testing.
               </li>
               <li className="flex gap-2">
-                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
+                <TiTick className="text-[#47A025]/50 h-17 w-17" />
                 Utilize modern frontend development practices such as reusable
                 components, version control (Git), and deployment workflows.
               </li>
@@ -79,42 +79,42 @@ const Experience = () => {
           <div className="bg-[#241023]  transition-colors duration-500 ease-in-out  w-[40%] p-10  rounded-lg  border  font-bold  flex flex-col   gap-4  backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden  hover:border-[#47A025]/50">
             <div className="flex justify-between w-full items-center">
               <div className="flex flex-col">
-                <h2>Personal & Practice Projects</h2>
-                <h3>Frontend Developer (Freelance & Personal Projects)</h3>
+                <h2 className="text-[20px] font-[700px]">Personal & Practice Projects</h2>
+                <h3 className="text-[16px] font-normal">Frontend Developer (Freelance & Personal Projects)</h3>
               </div>
-              <button className="px-6 py-2 rounded-2xl bg-[#47A025]/50">
+              <button className="px-2 py-1 rounded-2xl bg-[#47A025]/50 text-[12px] font-normal">
                 Ongoing
               </button>
             </div>
 
             <ul className="list-none space-y-2">
-              <li>
-                {" "}
+              <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-19 w-19" />
                 Built and deployed over 15+ responsive websites and web
                 applications using HTML, CSS, JavaScript, Bootstrap, and
                 React.js—including e-commerce stores, business websites, and UI
                 challenges.
               </li>
-              <li>
-                {" "}
+              <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-17 w-17" />
                 Developed a Product List with Cart app allowing users to browse
                 items, add to cart, and calculate total cost, mimicking
                 real-world online shopping flows.
               </li>
-              <li>
-                {" "}
+              <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-17 w-17" />
                 Cloned core features of the Amazon e-commerce website,
                 implementing navigation, product cards, and cart functionality
                 using React state and components.
               </li>
-              <li>
-                {" "}
+              <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-19 w-19" />
                 Created interactive web applications like calculators, to-do
                 lists, and dynamic landing pages from scratch—often inspired by
                 Frontend Mentor challenges or original Figma designs.
               </li>
-              <li>
-                {" "}
+              <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-17 w-17" />
                 Prioritize mobile responsiveness, performance, and clean code
                 architecture in every project to mirror real-life client
                 expectations.

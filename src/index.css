@@ -26,6 +26,9 @@
   font-family: "Inter", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /* .line-clamp-6 {
   display: -webkit-box;

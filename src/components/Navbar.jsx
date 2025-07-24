@@ -5,7 +5,7 @@ const Navbar = () => {
       <nav className="flex justify-between items-center text-white  w-full px-10 border-b  border-[#241023] shadow-2xl py-3 ">
 
         <div>
-          <h1>Janet-codes</h1>
+          <h1 className="font-bold text-4xl bg-gradient-to-r from-[#47A025] to-purple-600 bg-clip-text text-transparent">Janet</h1>
         </div>
         <div className="flex  cursor-pointer">
           <a
