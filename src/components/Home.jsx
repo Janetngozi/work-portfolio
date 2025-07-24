@@ -4,14 +4,19 @@ import { CiMail } from "react-icons/ci";
 import { FaThreads } from "react-icons/fa6";
 import { PiTiktokLogo } from "react-icons/pi";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import 'animate.css';
+import "animate.css";
 
 const Home = () => {
   return (
-    <div className="bg-[#241023] text-white flex flex-col items-center justify-center min-h-screen relative z-2">
-      <div className="bg-[url('./images/download.png')] absolute h-full w-full top-0 opacity-50"></div>
-      <div className="relative text-center text-[#ffffff]">
-        <h2 className="text-[36px] font-bold text-[#47A025] animate__animated animate__bounce">Hi, I'm Janet!</h2>
+    <div
+      id="home"
+      className="bg-[#241023] text-white flex flex-col items-center  justify-center min-h-screen relative "
+    >
+      <div className="bg-[url('./images/download.png')] absolute  h-full w-full top-0 opacity-50"></div>
+      <div className="relative z-10 text-center  text-[#ffffff]">
+        <h2 className="text-[36px] font-bold text-[#47A025] animate__animated animate__bounce">
+          Hi, I'm Janet!
+        </h2>
         <h1 className="text-5xl text-[#47A025]">
           I build beautiful, fast, responsive websites.
         </h1>
@@ -20,7 +25,7 @@ const Home = () => {
           user-friendly, responsive web experiences.
         </p>
       </div>
-      <div className="flex space-x-4 mt-8">
+      <div className="flex space-x-4 z-10 mt-8 ">
         <button className="bg-[#47A025]/50 flex rounded-sm p-2 items-center space-x-2 text-white cursor-pointer">
           View Projects
           <span>
@@ -31,23 +36,67 @@ const Home = () => {
           Contact me
         </button>
       </div>
-      <div className="flex space-x-4 mt-8 text-[24px] gap-4">
-        <span className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc]">
-          <LuGithub color="#000000" />
-        </span>
-        <span className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc]">
-          <FiLinkedin color="#000000" />
-        </span>
-        <span className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc]">
-          <CiMail color="#000000" />
-        </span>
-        <span className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc]">
-          <FaThreads color="#000000" />
-        </span>
-        <span className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc]">
-          <PiTiktokLogo color="#000000" />
-        </span>
+      <div className="flex space-x-4 mt-8 text-[24px] z-10 gap-4">
+        <a
+          href="https://github.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
+        >
+          <LuGithub />
+        </a>
+        <a
+          href="https://linkedin.com/in/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
+        >
+          <FiLinkedin />
+        </a>
+        <a
+          href="mailto:your@email.com"
+          className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
+        >
+          <CiMail />
+        </a>
+        <a
+          href="https://threads.net/@yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
+        >
+          <FaThreads />
+        </a>
+        <a
+          href="https://tiktok.com/@yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
+        >
+          <PiTiktokLogo />
+        </a>
       </div>
+      {/* vertical icons */}
+      <div className="fixed left-5 z-5 top-110">
+        <div className="flex space-x-4 text-[24px] gap-2 flex-col">
+          <a className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]">
+            <LuGithub />
+          </a>
+          <a className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]">
+            <FiLinkedin />
+          </a>
+          <a className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]">
+            <CiMail />
+          </a>
+          <a className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]">
+            <FaThreads />
+          </a>
+          <a className="cursor-pointer rounded-full p-2 h-10 w-10 justify-center items-center bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]">
+            <PiTiktokLogo />
+          </a>
+        </div>
+      </div>
+      {/* vertical icons */}
     </div>
   );
 };

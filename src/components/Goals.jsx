@@ -2,13 +2,16 @@ import { Rocket, Target, ChartColumnBig } from "lucide-react";
 
 const Goals = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023] pt-10  ">
+    <div
+      id="goals"
+      className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023] pt-10  "
+    >
       <button className="font-[500px] text-[14px] bg-[#47A025]/50 px-4 py-2 rounded-2xl">
         My RoadMap
       </button>
       <h1 className="font-[400px] text-[48px]">Career Goals</h1>
       <div class="w-34 h-4  rounded-full overflow-hidden pl-5">
-        <div class="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 rounded-full"></div>
+        <div className="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 ml-5 rounded-full"></div>
       </div>
       <div className="flex justify-between items-center gap-[30px] px-10 font-bold">
         <div className="p-10 flex flex-col  border bg-[#241023]  gap-4 transition-colors duration-500 ease-in-out rounded-xl backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden  hover:border-[#47A025]/50">

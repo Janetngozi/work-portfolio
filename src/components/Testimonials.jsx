@@ -47,7 +47,10 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023] pt-15  ">
+    <div
+      id="testimonials"
+      className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023] pt-25 "
+    >
       <button className="font-medium text-[14px] bg-[#47A025]/50 px-4 py-2 mb-3 rounded-2xl">
         What My Collaborators say
       </button>
@@ -55,7 +58,7 @@ const Testimonials = () => {
         Testimonials
       </h1>
       <div class="w-34 h-4  rounded-full overflow-hidden ">
-        <div class="h-2 w-3/4 bg-gradient-to-r from-teal-400 to-purple-600 rounded-full"></div>
+        <div className="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 ml-5 rounded-full"></div>
       </div>
       <div
         ref={scrollRef}
@@ -74,9 +77,7 @@ const Testimonials = () => {
               <Quote color="#47A025" className="w-8 h-8 mb-4" />
 
               <div className="text-[15px] italic mb-6 flex-grow overflow-hidden flex justify-center items-center">
-                <p className=" leading-relaxed">
-                  {testimony.words}
-                </p>
+                <p className=" leading-relaxed">{testimony.words}</p>
               </div>
 
               <div className="flex gap-4  items-center mt-auto">

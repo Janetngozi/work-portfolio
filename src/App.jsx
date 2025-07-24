@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import Faq from "./components/Faq";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Testimonials />
       <Faq />
       <Resume />
+      <Contact />
     </>
   );
 }

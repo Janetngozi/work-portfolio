@@ -1,6 +1,11 @@
+import { TiTick } from "react-icons/ti";
+
 const Experience = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023]  ">
+    <div
+      id="experience"
+      className="flex flex-col items-center pt-30 justify-center min-h-screen text-white relative z-2 bg-[#241023]  "
+    >
       <button className="font-[500px] text-[14px] bg-[#47A025]/50 px-4 py-2 rounded-2xl">
         My Professional Journey
       </button>
@@ -23,44 +28,44 @@ const Experience = () => {
             </div>
 
             <ul className="list-none space-y-2">
-              <li>
-                {" "}
+              <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
                 Collaborate in a dynamic 3-person frontend team to bring user
                 interfaces to life using React.js, Tailwind CSS, and
                 industry-standard libraries.
               </li>
-              <li>
-                {" "}
+              <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
                 Convert high-fidelity UI/UX designs from Figma into responsive
                 and accessible web pages, ensuring consistency across all
                 devices.
               </li>
-              <li>
-                {" "}
+            <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
                 Convert high-fidelity UI/UX designs from Figma into responsive
                 and accessible web pages, ensuring consistency across all
                 devices.
               </li>
-              <li>
-                {" "}
+              <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
                 Participate in cross-functional team meetings with project
                 managers, backend developers, and designers to clarify
                 requirements, set deadlines, and provide feedback on design
                 feasibility.
               </li>
-              <li>
-                {" "}
+              <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
                 Share tasks among frontend team members, manage individual KPIs,
                 and coordinate with backend engineers to integrate APIs and
                 dynamic data seamlessly.
               </li>
-              <li>
-                {" "}
+              <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
                 Proactively implement UI tweaks and design improvements based on
                 feedback from stakeholders and internal testing.
               </li>
-              <li>
-                {" "}
+              <li className="flex gap-2">
+                <TiTick className="text-[#47A025]/50 h-17 w-17"/>
                 Utilize modern frontend development practices such as reusable
                 components, version control (Git), and deployment workflows.
               </li>
@@ -77,7 +82,9 @@ const Experience = () => {
                 <h2>Personal & Practice Projects</h2>
                 <h3>Frontend Developer (Freelance & Personal Projects)</h3>
               </div>
-              <button className="px-6 py-2 rounded-2xl bg-[#47A025]/50">Ongoing</button>
+              <button className="px-6 py-2 rounded-2xl bg-[#47A025]/50">
+                Ongoing
+              </button>
             </div>
 
             <ul className="list-none space-y-2">

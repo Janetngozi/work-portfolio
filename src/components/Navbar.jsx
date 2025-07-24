@@ -1,21 +1,46 @@
 const Navbar = () => {
   return (
-    <div className="bg-[#241023] text-white  flex justify-between items-center px-10 py-8 z-1">
-      <div>
-        <h1>Janet-codes</h1>
-      </div>
-      <div className="flex space-x-8">
-        <p>Home</p>
-        <p>About</p>
-        <p>Goals</p>
-        <p>Experience</p>
-        <p>Projects</p>
-        <p>Skills</p>
-        <p>Testimonials</p>
-        <p>FAQ</p>
-        <p>Resume</p>
-        <p>Contact</p>
-      </div>
+    <div className="bg-[#241023] fixed  z-20 flex justify-between w-full items-center">
+      
+      <nav className="flex justify-between items-center text-white  w-full px-10 border-b  border-[#241023] shadow-2xl py-3 ">
+
+        <div>
+          <h1>Janet-codes</h1>
+        </div>
+        <div className="flex  cursor-pointer">
+          <a
+          href="#home"
+           className="hover:bg-[#47A025]/50 rounded-sm px-4 py-2">Home</a>
+          <a
+          href="#about"
+           className="hover:bg-[#47A025]/50 rounded-sm px-4 py-2">About</a>
+          <a 
+          href="#goals"
+          className="hover:bg-[#47A025]/50 rounded-sm px-4 py-2">Goals</a>
+          <a
+          href="#experience"
+           className="hover:bg-[#47A025]/50 rounded-sm px-4 py-2">Experience</a>
+          <a
+          href="#projects"
+           className="hover:bg-[#47A025]/50 rounded-sm px-4 py-2">Projects</a>
+          <a
+          href="#skills"
+           className="hover:bg-[#47A025]/50 rounded-sm px-4 py-2">Skills</a>
+          <a
+          href="#testimonials"
+           className="hover:bg-[#47A025]/50 rounded-sm px-4 py-2">Testimonials</a>
+          <a
+          href="#faq"
+           className="hover:bg-[#47A025]/50 rounded-sm px-4 py-2">FAQ</a>
+          <a
+          href="#resume"
+           className="hover:bg-[#47A025]/50 rounded-sm px-4 py-2">Resume</a>
+          <a
+          href="#contact"
+           className="hover:bg-[#47A025]/50 rounded-sm px-4 py-2">Contact</a>
+        </div>
+
+      </nav>
     </div>
   );
 };

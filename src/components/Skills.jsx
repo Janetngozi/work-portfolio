@@ -13,13 +13,16 @@ import { motion } from "motion/react";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023] pt-20  ">
+    <div
+      id="skills"
+      className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023] pt-20  "
+    >
       <button className="font-[500px] text-[14px] bg-[#47A025]/50 px-4 py-2 rounded-2xl">
         Technologies & Expertise
       </button>
       <h1 className="font-[400px] text-[48px]">My Skills</h1>
       <div class="w-34 h-4  rounded-full overflow-hidden pl-5">
-        <div class="h-2 w-3/4 bg-gradient-to-r from-teal-400 to-purple-600 rounded-full"></div>
+        <div className="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 ml-5 rounded-full"></div>
       </div>
 
       <motion.div
