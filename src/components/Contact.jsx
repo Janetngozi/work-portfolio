@@ -4,6 +4,9 @@ import { BsFillThreadsFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa";
+
 import { GrStatusGoodSmall } from "react-icons/gr";
 import { useState, useEffect, use } from "react";
 
@@ -69,6 +72,22 @@ const Contact = () => {
           <div className="flex flex-col gap-5">
             <div className="flex gap-5">
               <div>
+                <FaGithub className="w-8 h-8 text-[#47A025]/50" />
+              </div>
+              <div>
+                <p>GitHub</p>
+                <a
+                  href="https://github.com/Janetngozi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#ffffff] text-[14px]"
+                >
+                  https://github.com/Janetngozi
+                </a>
+              </div>
+            </div>
+            <div className="flex gap-5">
+              <div>
                 <MdEmail className="w-8 h-8 text-[#47A025]/50" />
               </div>
               <div>
@@ -80,6 +99,22 @@ const Contact = () => {
                   className="text-[#ffffff] text-[14px]"
                 >
                   janetodoemene@gmail.com
+                </a>
+              </div>
+            </div>
+            <div className="flex gap-5">
+              <div>
+                <FaXTwitter className="w-8 h-8 text-[#47A025]/50" />
+              </div>
+              <div>
+                <p>Twitter</p>
+                <a
+                  href="https://x.com/JANETNGOZI1/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#ffffff] text-[14px]"
+                >
+                  https://x.com/JANETNGOZI1/
                 </a>
               </div>
             </div>
@@ -101,17 +136,17 @@ const Contact = () => {
             </div>
             <div className="flex gap-5">
               <div>
-                <FaGithub className="w-8 h-8 text-[#47A025]/50" />
+                <FaTiktok className="w-8 h-8 text-[#47A025]/50" />
               </div>
               <div>
-                <p>GitHub</p>
+                <p>Tiktok</p>
                 <a
-                  href="https://github.com/Janetngozi"
+                  href="https://www.tiktok.com/@janetoluwanifemi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#ffffff] text-[14px]"
                 >
-                  https://github.com/Janetngozi
+                  https://www.tiktok.com/@janetoluwanifemi
                 </a>
               </div>
             </div>

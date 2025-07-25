@@ -1,8 +1,11 @@
 import { MdEmail } from "react-icons/md";
 import { BsFillThreadsFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+
 
 const Final = () => {
   return (
@@ -50,10 +53,22 @@ const Final = () => {
           <div className="flex flex-col">
             <h1 className="text-[#ffffff] font-bold pb-2">CONTACT</h1>
             <ul className="text-gray-500 flex flex-col gap-3">
-              <li className="">
+              <li>
+                <div className="flex gap-2">
+                  <FaGithub className="w-8 h-8 text-bg-gray-500" />
+                  <span className="mt-1">https://github.com/Janetngozi</span>
+                </div>
+              </li>
+              <li>
                 <div className="flex gap-2">
                   <MdEmail className="w-8 h-8 text-bg-gray-500" />
                   <span className="mt-1">janetodoemene@gmail.com</span>
+                </div>
+              </li>
+              <li>
+                <div className="flex gap-2">
+                   <FaXTwitter className="w-8 h-8 text-bg-gray-500"/>
+                  <span className="mt-1">https://x.com/JANETNGOZI1/</span>
                 </div>
               </li>
               <li>
@@ -64,8 +79,8 @@ const Final = () => {
               </li>
               <li>
                 <div className="flex gap-2">
-                  <FaGithub className="w-8 h-8 text-bg-gray-500" />
-                  <span className="mt-1">https://github.com/Janetngozi</span>
+                  <FaTiktok className="w-8 h-8 text-bg-gray-500"/>
+                  <span className="mt-1">https://www.tiktok.com/@janetoluwanifemi</span>
                 </div>
               </li>
               <li>
