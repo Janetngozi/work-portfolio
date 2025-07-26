@@ -19,7 +19,7 @@ const Home = () => {
         <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-[48px] font-[500px] text-[#47A025] animate__animated animate__bounce">
           Hi, I'm Janet!
         </h2>
-        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-[72px] text-center font-[700px] text-[#47A025]">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-[72px] text-center font-[700px] text-[#47A025] ">
           I build beautiful, fast, responsive websites.
         </h1>
         <p className="text-[12px] sm:text-lg md:text-[18px] px-10 font-[400px] text-[#ffffff]">
@@ -69,30 +69,7 @@ const Home = () => {
         >
           <FaXTwitter />
         </a>
-        <a
-          href="https://www.threads.net/@janetoluwanifemi"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
-        >
-          <FaThreads />
-        </a>
-        <a
-          href="https://www.tiktok.com/@janetoluwanifemi"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
-        >
-          <PiTiktokLogo />
-        </a>
-        <a
-          href="https://www.instagram.com/janetoluwanifemi/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cursor-pointer rounded-full p-2 hover:bg-[#47A025] transition-colors bg-[#d0d4dc] hover:text-[#ffffff] text-[#000000]"
-        >
-          <FaInstagram />
-        </a>
+        
         <a
           href="https://www.linkedin.com/in/janet-odoemene-0599661aa/"
           target="_blank"
@@ -103,7 +80,7 @@ const Home = () => {
         </a>
       </div>
       {/* vertical icons */}
-      <div className="fixed left-5 z-5 lg:top-88">
+      <div className="fixed left-5 z-5 lg:top-130 xs">
         <div className="flex space-x-4 text-[24px] gap-2 flex-col">
           <a
             href="https://github.com/Janetngozi"
@@ -129,30 +106,7 @@ const Home = () => {
           >
             <FaXTwitter />
           </a>
-          <a
-            href="https://www.threads.net/@janetoluwanifemi"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cursor-pointer rounded-full p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]"
-          >
-            <FaThreads />
-          </a>
-          <a
-            href="https://www.tiktok.com/@janetoluwanifemi"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cursor-pointer rounded-full p-2 h-10 w-10 justify-center items-center bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]"
-          >
-            <PiTiktokLogo />
-          </a>
-          <a
-            href="https://www.instagram.com/janetoluwanifemi/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cursor-pointer rounded-full h-10 w-10 p-2 bg-[#47A025]/50 transition-colors hover:bg-[#d0d4dc] text-[#ffffff] hover:text-[#000000]"
-          >
-            <FaInstagram />
-          </a>
+         
           <a
             href="https://www.linkedin.com/in/janet-odoemene-0599661aa/"
             target="_blank"

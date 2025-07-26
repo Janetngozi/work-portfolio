@@ -32,8 +32,8 @@ const Skills = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <div className="p-10   bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30  border border-[#47A025]/50 rounded-lg overflow-hidden">
-          <h1>Frontend Development</h1>
+        <div className="p-5   bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30  border border-[#47A025]/50 rounded-lg overflow-hidden">
+          <h1 className="text-[18px] font-bold text-center">Frontend Development</h1>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="flex flex-col justify-center items-center p-2 rounded-full bg-[#241023] opacity-70">
               <div className="p-4 rounded-full bg-[#47A025]/50">
@@ -79,28 +79,28 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="p-10   bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30  border border-[#47A025]/50 rounded-lg overflow-hidden">
-          <h1>Tools & Methodologies</h1>
+        <div className="px-5 pb-15 pt-6 flex flex-col gap-15   bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30  border border-[#47A025]/50 rounded-lg overflow-hidden">
+          <h1 className="text-[18px] font-bold text-center">Tools & Methodologies</h1>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="flex flex-col justify-center items-center bg-[#241023] opacity-70 gap-2">
+            <div className="flex flex-col justify-center items-center bg-[#241023] opacity-70 gap-5">
               <div className="p-4 rounded-full bg-[#47A025]/50">
                 <FaGitAlt color="[#47A025]" className="h-10 w-10" />
               </div>
               <div>Git</div>
             </div>
-            <div className="flex flex-col justify-center items-center bg-[#241023] opacity-70 gap-2">
+            <div className="flex flex-col justify-center items-center bg-[#241023] opacity-70 gap-5">
               <div className="p-4 rounded-full bg-[#47A025]/50">
                 <DiResponsive color="[#47A025]" className="h-10 w-10" />
               </div>
               <div>Responsive Design</div>
             </div>
-            <div className="flex flex-col justify-center items-center bg-[#241023] opacity-70 gap-2">
+            <div className="flex flex-col justify-center items-center bg-[#241023] opacity-70 gap-5">
               <div className="p-4 rounded-full bg-[#47A025]/50">
                 <FaFigma color="[#47A025]" className="h-10 w-10" />
               </div>
               <div>Figma</div>
             </div>
-            <div className="flex flex-col justify-center items-center  bg-[#241023] opacity-70 gap-2">
+            <div className="flex flex-col justify-center items-center mt-8 bg-[#241023] opacity-70 gap-5">
               <div className="p-4 rounded-full bg-[#47A025]/50">
                 <TbApi color="[#47A025]" className="h-10 w-10" />
               </div>

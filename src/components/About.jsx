@@ -18,7 +18,7 @@ const About = () => {
           className="w-1/4 rounded-xl h-[100%] shadow-2xl"
         />
         <div className="w-2/4  border-solid border px-10 py-5 relative    ease-in-out rounded-xl animate__animated animate__pulse  bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden transition-all duration-300 hover:border-[#47A025]/50">
-          <p className="text-[#ffffff]   text-[20px] pb-5 text-shadow-xl font-bold">
+          <p className="text-[#ffffff]   text-[20px] pb-5 text-shadow-xl font-normal">
             Hi, I’m Janet, a passionate Frontend Developer who transforms ideas
             into clean, responsive, and user-focused web experiences. My journey
             into tech started after graduation, during a period of uncertainty.
@@ -35,7 +35,7 @@ const About = () => {
             great together.
           </p>
           <hr className=" h-[1px] bg-[#ccc;] "></hr>
-          <div className="flex flex-col gap-5 mt-5  font-bold">
+          <div className="flex flex-col gap-5 mt-5  font-normal">
             <div className="flex items-center justify-between ">
               <p>
                 Name

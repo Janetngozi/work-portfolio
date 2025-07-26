@@ -71,24 +71,9 @@ const Final = () => {
                   <span className="mt-1">https://x.com/JANETNGOZI1/</span>
                 </div>
               </li>
-              <li>
-                <div className="flex gap-2">
-                  <BsFillThreadsFill className="w-8 h-8 text-bg-gray-500" />
-                  <span className="mt-1">https://www.threads.net/@janetoluwanifemi</span>
-                </div>
-              </li>
-              <li>
-                <div className="flex gap-2">
-                  <FaTiktok className="w-8 h-8 text-bg-gray-500"/>
-                  <span className="mt-1">https://www.tiktok.com/@janetoluwanifemi</span>
-                </div>
-              </li>
-              <li>
-                <div className="flex gap-2">
-                  <FaInstagramSquare className="w-8 h-8 text-bg-gray-500" />
-                  <span className="mt-1">https://www.instagram.com/janetoluwanifemi/</span>
-                </div>
-              </li>
+             
+              
+              
               <li>
                 <div className="flex gap-2">
                   <FaLinkedin className="w-8 h-8 text-bg-gray-500" />

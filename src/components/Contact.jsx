@@ -134,38 +134,8 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-            <div className="flex gap-5">
-              <div>
-                <FaTiktok className="w-8 h-8 text-[#47A025]/50" />
-              </div>
-              <div>
-                <p>Tiktok</p>
-                <a
-                  href="https://www.tiktok.com/@janetoluwanifemi"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#ffffff] text-[14px]"
-                >
-                  https://www.tiktok.com/@janetoluwanifemi
-                </a>
-              </div>
-            </div>
-            <div className="flex gap-5">
-              <div>
-                <FaInstagramSquare className="w-8 h-8 text-[#47A025]/50" />
-              </div>
-              <div>
-                <p>Instagram</p>
-                <a
-                  href="https://www.instagram.com/janetoluwanifemi/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#ffffff] text-[14px] "
-                >
-                  https://www.instagram.com/janetoluwanifemi/
-                </a>
-              </div>
-            </div>
+            
+          
             <div className="flex gap-5">
               <div>
                 <FaLinkedin className="w-8 h-8 text-[#47A025]/50" />
@@ -196,7 +166,7 @@ const Contact = () => {
         </div>
         <div className=" pl-10 pr-25 pt-5 pb-10 flex flex-col justify-center text-center items-start  w-1/2  border-solid border relative    ease-in-out rounded-xl  bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30    border-[#47A025]/50  overflow-hidden transition-all duration-300">
           <form
-            action=""
+            action="https://submit-form.com/BEIM0ImyA"
             onSubmit={handleSubmit}
             className="flex flex-col  gap-5  justify-center w-full   items-start "
           >
