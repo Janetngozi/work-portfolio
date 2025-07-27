@@ -226,7 +226,7 @@ const Projects = () => {
         </div>
         <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
-          <a href="https://work-portfolio-kappa.vercel.app/" target="_blank">
+          <a href="https://janetodoemene.vercel.app/" target="_blank">
             <img
               src="/images/portfoliotwo.png"
               alt="Project Screenshot"
