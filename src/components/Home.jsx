@@ -16,7 +16,7 @@ const Home = () => {
       id="home"
       className="bg-[#241023] text-white flex flex-col items-center px-10  justify-center lg:min-h-screen  relative  "
     >
-      <div className="bg-[url('./images/download.png')] z-10 fixed h-full w-full top-0 opacity-50"></div>
+      <div className="bg-[url('./images/download.png')] z-3 fixed h-full w-full top-0 opacity-50"></div>
       <div className="relative z-10 text-center flex flex-col gap-5 md:gap-3  text-[#ffffff] -mt-36 md:-mt-100 lg:mt-0">
         <h2 className="text-xl sm:text-2xl md:text-2xl lg:text-3xl font-[500px] text-[#47A025] animate__animated animate__bounce">
           Hi, I'm Janet!

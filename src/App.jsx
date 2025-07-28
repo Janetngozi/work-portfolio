@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Home />
+      {/* <Home />
       <About />
       <Goals />
       <Experience />
@@ -25,7 +25,7 @@ function App() {
       <Faq />
       <Resume />
       <Contact />
-      <Final />
+      <Final /> */}
     </>
   );
 }
