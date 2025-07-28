@@ -1,5 +1,3 @@
-
-
 import { LuGithub } from "react-icons/lu";
 import { FiLinkedin } from "react-icons/fi";
 import { CiMail } from "react-icons/ci";
@@ -37,7 +35,7 @@ const Home = () => {
         >
           View My Work
           <span>
-            <IoIosArrowRoundForward className="text-[20px] lg:text-[30px]"/>
+            <IoIosArrowRoundForward className="text-[20px] lg:text-[30px]" />
           </span>
         </a>
         <a
@@ -83,7 +81,7 @@ const Home = () => {
         </a>
       </div>
       {/* vertical icons */}
-      <div className="fixed left-2 lg:left-10 z-5 top-80 xl:top-130 lg:top-120 xs">
+      <div className="hidden md:flex fixed left-2 lg:left-10 z-5 top-80 md:top-100 xl:top-130 lg:top-120 xs">
         <div className="flex space-x-4 text-[24px] gap-2 flex-col">
           <a
             href="https://github.com/Janetngozi"
