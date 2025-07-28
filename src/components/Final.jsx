@@ -9,7 +9,7 @@ import { FaTiktok } from "react-icons/fa";
 
 const Final = () => {
   return (
-    <footer className="flex flex-col items-center justify-center  text-white bg-[#241023] overflow-hidden px-5 ">
+    <footer className="flex flex-col items-center justify-center  text-white bg-[#241023] overflow-hidden px-10 ">
       <div className="flex">
         <div className="left flex flex-col w-1/4">
           <h1 className="pb-2">Janet</h1>

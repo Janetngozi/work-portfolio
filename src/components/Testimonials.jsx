@@ -38,13 +38,30 @@ testimonies = [...testimonies, ...testimonies];
 const Testimonials = () => {
   const scrollRef = useRef(null);
   useEffect(() => {
-    const interval = setInterval(() => {
-      if (scrollRef.current) {
-        scrollRef.current.scrollLeft += 1;
+  //   const interval = setInterval(() => {
+  //     if (scrollRef.current) {
+  //       scrollRef.current.scrollLeft += 1;
+  //     }
+  //   }, 20); // Adjust speed here
+  //   return () => clearInterval(interval);
+  // }, []);
+  const scrollContainer = scrollRef.current;
+  const scrollSpeed = 1; // Adjust speed here
+  let scrollInterval;
+
+  if (scrollContainer) {
+    scrollInterval = setInterval(() => {
+      if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth / 2) {
+        // Reset scroll when halfway through the duplicated content
+        scrollContainer.scrollLeft = 0;
+      } else {
+        scrollContainer.scrollLeft += scrollSpeed;
       }
-    }, 20); // Adjust speed here
-    return () => clearInterval(interval);
-  }, []);
+    }, 20); // Delay between scrolls
+  }
+
+  return () => clearInterval(scrollInterval);
+}, []);
 
   return (
     <div

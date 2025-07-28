@@ -5,8 +5,8 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => setMenuOpen(!menuOpen);
   return (
-    <div className="bg-[#241023] fixed  z-20 w-full">
-      <nav className="flex justify-between items-center text-white px-6 lg:px-10 border-b  border-[#241023] shadow-2xl py-3 ">
+    <div className="bg-[#241023] fixed px-10 z-20 w-full">
+      <nav className="flex justify-between items-center text-white   border-b  border-[#241023] shadow-2xl py-3 ">
 
         {/* Left logo & Toggle */}
         <div className="flex justify-between items-center w-full lg:w-auto">

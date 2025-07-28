@@ -54,7 +54,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col pt-25 items-center justify-center min-h-screen text-white bg-[#241023] overflow-hidden px-5 pb-10 "
+      className="flex flex-col pt-25 items-center justify-center min-h-screen text-white bg-[#241023] overflow-hidden px-10 pb-10 "
     >
       <button className="font-medium text-[14px] bg-[#47A025]/50 px-4 py-2 mb-3 rounded-2xl">
         Let's work together

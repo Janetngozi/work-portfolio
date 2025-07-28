@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col items-center justify-center min-h-screen text-white relative  bg-[#241023] pt-25 pb-10"
+      className="flex flex-col  items-center justify-center min-h-screen text-white relative  bg-[#241023] pt-25 pb-10"
     >
       <button className="font-bold text-[14px] text-[#ffffff] bg-[#47a025]/50 px-4 py-2 rounded-2xl">
         My Journey
