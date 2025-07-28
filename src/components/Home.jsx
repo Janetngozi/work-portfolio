@@ -81,7 +81,7 @@ const Home = () => {
         </a>
       </div>
       {/* vertical icons */}
-      <div className="hidden sm:flex fixed left-2 lg:left-10 z-5 top-80 sm:top-100 xl:top-130 lg:top-120 xs">
+      <div className="hidden sm:flex xl:flex md:flex lg:flex fixed left-2 lg:left-10 z-5 top-80 sm:top-100 xl:top-130 lg:top-120 xs">
         <div className="flex space-x-4 text-[24px] gap-2 flex-col">
           <a
             href="https://github.com/Janetngozi"
