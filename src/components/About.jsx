@@ -7,7 +7,9 @@ const About = () => {
       <button className="font-bold text-[14px] text-[#ffffff] bg-[#47a025]/50 px-4 py-2 rounded-2xl">
         My Journey
       </button>
-      <h1 className="font-[400px] text-[48px] animate__animated animate__tada">About Me</h1>
+      <h1 className="font-[400px] text-[48px] animate__animated animate__tada">
+        About Me
+      </h1>
       <div className="w-34 h-4  rounded-full overflow-hidden pl-5">
         <div className="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 rounded-full"></div>
       </div>
@@ -15,7 +17,7 @@ const About = () => {
         <img
           src="./images/janet.jpg"
           alt=""
-          className="lg:w-1/4 rounded-xl lg:h-[100%] w-[250px] ml-15 sm:ml-20 md:ml-45 md:w-[400px] mb-10 lg:mb-0 lg:ml-0 shadow-2xl"
+          className="lg:w-1/4 rounded-xl lg:h-[100%] w-[250px] xs:w-[300px]  ml-15 sm:ml-20 md:ml-45  md:w-[400px] mb-10 lg:mb-0 lg:ml-0 shadow-2xl"
         />
         <div className="lg:w-2/4  border-solid border lg:px-10 px-5 py-5 relative    ease-in-out rounded-xl animate__animated animate__pulse  bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden transition-all duration-300 hover:border-[#47A025]/50 mx-10 md:mx-15 lg:mx-0">
           <p className="text-[#ffffff] text-[12px]  md:text[18px] lg:text-[20px] pb-5 text-shadow-xl font-normal">
@@ -48,19 +50,12 @@ const About = () => {
                 janetodoemene@gmail.com
               </p>
             </div>
-              <div className="flex text-[12px] flex-col items-start gap-5 lg:hidden">
-              <p>
-                Name: 
-                Janet
-              </p>
-              <p>
-                Email: 
-                janetodoemene@gmail.com
-              </p>
+            <div className="flex text-[12px] flex-col items-start gap-5 lg:hidden">
+              <p>Name: Janet</p>
+              <p>Email: janetodoemene@gmail.com</p>
             </div>
             <p className="text-[12px] lg:text-[16px]">
-              Availability: 
-              Open to opportunities
+              Availability: Open to opportunities
             </p>
           </div>
         </div>
