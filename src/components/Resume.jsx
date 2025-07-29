@@ -14,16 +14,16 @@ const Resume = () => {
         <div className="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 ml-5 rounded-full"></div>
       </div>
 
-      <p>
+      <p className="text-center">
         You can explore my professional experience and skills directly in your
         browser or download a PDF version for easy reference.
       </p>
-      <div className="flex space-x-5 mt-8">
+      <div className="flex flex-col md:flex-row md:gap-0 gap-5 md:space-x-5 mt-8">
         <a
           href="https://janetngozi.github.io/work-portfolio/public/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#47A025]/50 flex rounded-sm px-6 py-1 items-center gap-4 text-white cursor-pointer "
+          className="bg-[#47A025]/50 flex rounded-sm px-6 py-2 md:py-1 items-center gap-4 text-white cursor-pointer "
         >
           <span>
             <Eye />
