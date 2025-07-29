@@ -38,30 +38,30 @@ testimonies = [...testimonies, ...testimonies];
 const Testimonials = () => {
   const scrollRef = useRef(null);
   useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     if (scrollRef.current) {
-  //       scrollRef.current.scrollLeft += 1;
-  //     }
-  //   }, 20); // Adjust speed here
-  //   return () => clearInterval(interval);
-  // }, []);
-  const scrollContainer = scrollRef.current;
-  const scrollSpeed = 1; // Adjust speed here
-  let scrollInterval;
+    //   const interval = setInterval(() => {
+    //     if (scrollRef.current) {
+    //       scrollRef.current.scrollLeft += 1;
+    //     }
+    //   }, 20); // Adjust speed here
+    //   return () => clearInterval(interval);
+    // }, []);
+    const scrollContainer = scrollRef.current;
+    const scrollSpeed = 1; // Adjust speed here
+    let scrollInterval;
 
-  if (scrollContainer) {
-    scrollInterval = setInterval(() => {
-      if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth / 2) {
-        // Reset scroll when halfway through the duplicated content
-        scrollContainer.scrollLeft = 0;
-      } else {
-        scrollContainer.scrollLeft += scrollSpeed;
-      }
-    }, 20); // Delay between scrolls
-  }
+    if (scrollContainer) {
+      scrollInterval = setInterval(() => {
+        if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth / 2) {
+          // Reset scroll when halfway through the duplicated content
+          scrollContainer.scrollLeft = 0;
+        } else {
+          scrollContainer.scrollLeft += scrollSpeed;
+        }
+      }, 20); // Delay between scrolls
+    }
 
-  return () => clearInterval(scrollInterval);
-}, []);
+    return () => clearInterval(scrollInterval);
+  }, []);
 
   return (
     <div
@@ -84,7 +84,7 @@ const Testimonials = () => {
         {testimonies.map((testimony, index) => (
           <motion.div
             key={index}
-            className="border p-5 bg-[#2D1B31] min-w-[380px] max-w-[400px] h-[440px] rounded-2xl shadow-md transition mt-10 hover:scale-[1.02]  md:bg-[#241023]/50 backdrop-blur md:shadow-2xl shadow-black/30  border-[#47A025]/50 overflow-hidden"
+            className="border p-5 bg-[#2D1B31] min-w-[250px] md:min-w-[300px] lg:min-w-[380px] lg:max-w-[400px] h-[440px] rounded-2xl shadow-md transition mt-10 hover:scale-[1.02]  md:bg-[#241023]/50 backdrop-blur md:shadow-2xl shadow-black/30  border-[#47A025]/50 overflow-hidden"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
