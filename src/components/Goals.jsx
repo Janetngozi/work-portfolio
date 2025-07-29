@@ -13,7 +13,7 @@ const Goals = () => {
       <div class="w-34 h-4  rounded-full overflow-hidden pl-5">
         <div className="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 ml-5 rounded-full"></div>
       </div>
-      <div className="flex justify-between items-center gap-[30px] px-10 font-bold">
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-[30px] px-10 font-bold">
         <div className="p-10 flex flex-col  border bg-[#241023]  gap-4 transition-colors duration-500 ease-in-out rounded-xl backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden  hover:border-[#47A025]/50">
           <div className="flex gap-4">
             <span className="text-[#ffffff]">
