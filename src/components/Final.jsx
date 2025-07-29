@@ -10,15 +10,15 @@ import { FaTiktok } from "react-icons/fa";
 const Final = () => {
   return (
     <footer className="flex flex-col items-center justify-center  text-white bg-[#241023] overflow-hidden px-10 ">
-      <div className="flex">
-        <div className="left flex flex-col w-1/4">
+      <div className="hidden md:flex md:flex-col lg:flex-row">
+        <div className=" text-center lg:items-left lg:text-left flex flex-col w-full  lg:w-1/4">
           <h1 className="pb-2">Janet</h1>
           <p className="text-gray-300">
             Focused on turning creative ideas into smooth, user-friendly web
             experiences using modern frontend stacks.
           </p>
         </div>
-        <div className="right flex justify-between w-3/4">
+        <div className="right flex gap-15 ml-5 lg:ml-0 mt-10 lg:mt-0 lg:gap-0 lg:justify-between w-full lg:w-3/4">
           {/* nav */}
           <div className="flex flex-col">
             <h1 className="text-[#ffffff] font-bold pb-2">NAVIGATION</h1>
@@ -85,12 +85,12 @@ const Final = () => {
           {/* contact */}
         </div>
       </div>
-      <hr className="text-white text-[2px] w-full mt-10 mb-10" />
-      <div className="flex justify-between w-full pb-10 items-center">
-        <h3 className="text-gray-300">
-          Designed & Built by Janet. © 2025 All rights reserved.
+      <hr className="text-white text-[2px] w-full mt-10 mb-10 hidden md:flex" />
+      <div className="flex flex-col md:flex-row justify-between w-full pb-10 md:items-center">
+        <h3 className="text-gray-300 flex flex-col md:flex-row">
+          Designed & Built by Janet. <span className="">© 2025 All rights reserved.</span>
         </h3>
-        <div className="flex justify-between w-1/4 items-center text-gray-500">
+        <div className="flex justify-between md:w-1/4 items-center mt-5 md:mt-0 text-gray-500">
           <p>Privacy Policy</p>
           <p>Terms of Services</p>
           <p>Cookies</p>
