@@ -9,7 +9,7 @@ const Goals = () => {
       <button className="font-[500px] text-[14px] bg-[#47A025]/50 px-4 py-2 rounded-2xl">
         My RoadMap
       </button>
-      <h1 className="font-[400px] text-[48px]">Career Goals</h1>
+      <h1 className="font-[400px] text-[40px]  lg:text-[48px]">Career Goals</h1>
       <div class="w-34 h-4  rounded-full overflow-hidden pl-5">
         <div className="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 ml-5 rounded-full"></div>
       </div>

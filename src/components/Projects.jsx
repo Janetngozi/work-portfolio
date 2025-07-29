@@ -9,14 +9,14 @@ const Projects = () => {
       <button className="font-[500px] text-[14px] bg-[#47A025]/50 px-4 py-2 rounded-2xl">
         My Recent work
       </button>
-      <h1 className="font-[400px] text-[48px]">Featured Projects</h1>
+      <h1 className="font-[400px] text-[40px]  lg:text-[48px]">Featured Projects</h1>
       <div class="w-34 h-4  rounded-full overflow-hidden pl-5">
         <div className="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 ml-5 rounded-full"></div>
       </div>
       {/* cards */}
-      <div class="grid md:grid-cols-3 gap-8">
+      <div class="grid lg:grid-cols-3 gap-8">
         {/* first project */}
-        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
+        <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px] mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://productcart-six.vercel.app/" target="_blank">
             <img
@@ -85,7 +85,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
+        <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px] mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://food-wagon-psi.vercel.app/" target="_blank">
             <img
@@ -155,7 +155,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
+        <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px] mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://virtualr-lac-nu.vercel.app/" target="_blank">
             <img
@@ -224,7 +224,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
+        <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px] mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://janetodoemene.vercel.app/" target="_blank">
             <img
@@ -293,7 +293,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
+        <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px] mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://nexcent-xi-bay.vercel.app/" target="_blank">
             <img
@@ -366,7 +366,7 @@ const Projects = () => {
 
         {/* calculator */}
 
-        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
+        <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px] mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a
             href="https://calculator-tailwind-nine.vercel.app/"
@@ -441,7 +441,7 @@ const Projects = () => {
 
         {/* Smileschool */}
 
-        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
+        <div className="max-w-xs lg:max-w-md md:w-full w-[280px] mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           <a href="https://school-page-c82u.vercel.app/" target="_blank">
             <img
               src="/images/smileschool.png"
@@ -512,7 +512,7 @@ const Projects = () => {
         </div>
 
         {/* Get Schooled */}
-        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
+        <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px]  mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://seren-space.vercel.app/" target="_blank">
             <img
@@ -584,7 +584,7 @@ const Projects = () => {
         </div>
 
         {/* Serenspace */}
-        <div className="max-w-md mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
+        <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px] mx-5   lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
           <a href="https://learn-pro2.vercel.app/" target="_blank">
             <img

@@ -11,6 +11,7 @@
 
 @theme {
   --breakpoint-xs: 400px;
+  --breakpoint-xx: 300px;
 }
 
 .animate-scroll {
