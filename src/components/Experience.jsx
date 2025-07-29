@@ -9,20 +9,20 @@ const Experience = () => {
       <button className="font-[500px] text-[14px] bg-[#47A025]/50 px-4 py-2 rounded-2xl">
         My Professional Journey
       </button>
-      <h1 className="font-[400px] text-[48px]">Work Experience</h1>
+      <h1 className="font-[400px] text-[40px]  lg:text-[48px]">Work Experience</h1>
       <div class="w-34 h-4  rounded-full overflow-hidden pl-5">
         <div class="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 rounded-full"></div>
       </div>
 
       <div className="flex flex-col justify-center items-center gap-5">
-        <div className="flex  items-center ml-40 ">
-          <div className="bg-[#241023]  transition-colors duration-500 ease-in-out  w-[40%] p-10  rounded-lg  border  font-bold  flex flex-col   gap-4  backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden  hover:border-[#47A025]/50">
-            <div className="flex justify-between w-full items-center">
+        <div className="flex  items-center lg:ml-40 ">
+          <div className="bg-[#241023]  transition-colors duration-500 ease-in-out  lg:w-[40%] lg:p-10 p-5  rounded-lg  border  font-bold  flex flex-col   lg:gap-4  backdrop-blur shadow-2xl shadow-black/30 mx-8 lg:mx-0   border-[#47A025]/50  overflow-hidden  hover:border-[#47A025]/50">
+            <div className="flex flex-col  lg:flex-row justify-between w-full lg:items-center">
               <div className="flex flex-col">
                 <h1 className="text-[20px] font-[700px]">Frontend Developer</h1>
-                <h2 className="text-[16px] font-normal">Voyaji Travels</h2>
+                <h2 className="text-[16px] font-normal mt-3 lg:mt-0">Voyaji Travels</h2>
               </div>
-              <button className="px-2 py-1 rounded-2xl bg-[#47A025]/50 text-[12px] font-normal">
+              <button className="px-2 py-1 rounded-2xl bg-[#47A025]/50 text-[12px] font-normal mt-3 mb-5 lg:mt-0 lg:mb-0 w-fit">
                 March 2025 - Present
               </button>
             </div>
@@ -70,19 +70,19 @@ const Experience = () => {
                 components, version control (Git), and deployment workflows.
               </li>
             </ul>
-            <div className=""></div>
+            <div className="hidden lg:flex"></div>
           </div>
         </div>
 
-        <div className="flex justify-center mr-15 items-center">
-          <div className="basis-1/2"></div>
-          <div className="bg-[#241023]  transition-colors duration-500 ease-in-out  w-[40%] p-10  rounded-lg  border  font-bold  flex flex-col   gap-4  backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden  hover:border-[#47A025]/50">
-            <div className="flex justify-between w-full items-center">
+        <div className="flex justify-center lg:mr-15 items-center">
+          <div className="hidden lg:flex basis-1/2"></div>
+          <div className="bg-[#241023]  transition-colors duration-500 ease-in-out  lg:w-[40%] lg:p-10 p-5  rounded-lg  border  font-bold  flex flex-col   lg:gap-4  backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden mx-8 lg:mx-0 hover:border-[#47A025]/50">
+            <div className="flexflex flex-col  lg:flex-row   justify-between w-full lg:items-center">
               <div className="flex flex-col">
                 <h2 className="text-[20px] font-[700px]">Personal & Practice Projects</h2>
-                <h3 className="text-[16px] font-normal">Frontend Developer (Freelance & Personal Projects)</h3>
+                <h3 className="text-[16px] font-normal mt-3 lg:mt-0">Frontend Developer (Freelance & Personal Projects)</h3>
               </div>
-              <button className="px-2 py-1 rounded-2xl bg-[#47A025]/50 text-[12px] font-normal">
+              <button className="px-2 py-1 rounded-2xl bg-[#47A025]/50 text-[12px] font-normal mt-3 mb-5 lg:mt-0 lg:mb-0">
                 Ongoing
               </button>
             </div>
