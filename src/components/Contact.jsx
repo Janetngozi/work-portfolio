@@ -66,8 +66,8 @@ const Contact = () => {
         <div className="h-2 w-3/4 bg-gradient-to-r from-[#47A025] to-purple-600 ml-5 rounded-full"></div>
       </div>
 
-      <div className="lg:flex mx-10 gap-10 mt-10 justify-center items-start ">
-        <div className="flex flex-col text-left justify-left gap-10 items-start p-5 rounded-xl  w-1/2  border-solid border px-10 py-5 relative    ease-in-out   bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden transition-all duration-300">
+      <div className="flex flex-col lg:flex-row  md:mx-10 mt-10 justify-center gap-10 items-center ">
+        <div className="flex flex-col text-left justify-left gap-10 items-center  lg:items-start sm:p-2 md:p-5 rounded-xl   border-solid border  relative    ease-in-out   bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  overflow-hidden transition-all duration-300">
           <h1 className="text-[30px] font-[400px]">Contact Information</h1>
           <div className="flex flex-col gap-5">
             <div className="flex gap-5">
@@ -164,14 +164,14 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <div className=" pl-10 pr-25 pt-5 pb-10 flex flex-col justify-center text-center items-start  w-1/2  border-solid border relative    ease-in-out rounded-xl  bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30    border-[#47A025]/50  overflow-hidden transition-all duration-300">
+        <div className=" px-5 lg:px-10 pb-10 pt-5  flex flex-col justify-center text-center items-center   border-solid border relative    ease-in-out rounded-xl  bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30    border-[#47A025]/50  overflow-hidden transition-all duration-300">
           <form
             action="https://submit-form.com/BEIM0ImyA"
             onSubmit={handleSubmit}
-            className="flex flex-col  gap-5  justify-center w-full   items-start "
+            className="flex flex-col  gap-5  justify-center    items-start "
           >
-            <h1 className="text-[28px] font-[400px]">Send Me a Message</h1>
-            <div className="flex flex-col gap-5">
+            <h1 className="text-[28px] font-[400px] pb-5 xl:pb-0 ">Send Me a Message</h1>
+            <div className="flex flex-col gap-5 pb-5 xl:pb-0">
               <label htmlFor="">
                 <p className="font-bold text-[22px] text-left text-[#ffffff]">
                   Full Name<span class="text-red-500">*</span>

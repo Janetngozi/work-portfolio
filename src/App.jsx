@@ -24,8 +24,8 @@ function App() {
       <Testimonials />
       <Faq />
       <Resume />
-      {/* <Contact />
-      <Final /> */}
+      <Contact />
+      {/* <Final /> */}
     </>
   );
 }
