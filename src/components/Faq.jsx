@@ -62,7 +62,7 @@ const Faq = () => {
           {faqData.map((item) => (
             <div
               key={item.id}
-              className="bg-[#241023]/50 backdrop-blur shadow-xl shadow-black/30  border border-[#47A025]/50 rounded-lg overflow-hidden transition-all duration-300 hover:border-[#47A025]/50"
+              className="bg-[#241023]/50 backdrop-blur  shadow-xl shadow-black/30  border border-[#47A025]/50 rounded-lg overflow-hidden transition-all duration-300 hover:border-[#47A025]/50"
             >
               {/* Question Header */}
               <button

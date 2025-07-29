@@ -443,7 +443,7 @@ const Projects = () => {
 
         {/* Smileschool */}
 
-        <div className="max-w-xs lg:max-w-md md:w-full w-[280px] mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
+        <div className="max-w-xs md:max-w-sm md:w-full w-[280px] mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           <a href="https://school-page-c82u.vercel.app/" target="_blank">
             <img
               src="/images/smileschool.png"
