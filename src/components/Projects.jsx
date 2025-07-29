@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023] pt-25  "
+      className="flex flex-col items-center justify-center min-h-screen text-white relative z-5 bg-[#241023] pt-25  "
     >
       <button className="font-[500px] text-[14px] bg-[#47A025]/50 px-4 py-2 rounded-2xl">
         My Recent work
@@ -238,7 +238,7 @@ const Projects = () => {
           <div class="p-5 space-y-4">
             <a
               class="text-xl font-semibold text-[#47A025]"
-              href="https://work-portfolio-kappa.vercel.app/"
+              href="https://janetodoemene.vercel.app/"
               target="_blank"
             >
               My Personal Portfolio Website
@@ -286,7 +286,7 @@ const Projects = () => {
                 View Code
               </a>
               <a
-                href="https://work-portfolio-kappa.vercel.app/"
+                href="https://janetodoemene.vercel.app/"
                 target="_blank"
                 class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >

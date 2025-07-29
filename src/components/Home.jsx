@@ -14,7 +14,7 @@ const Home = () => {
       id="home"
       className="bg-[#241023] text-white flex flex-col items-center px-10  justify-center min-h-[80vh] xs:min-h-[90vh] lg:min-h-screen  relative pt-30 lg:pt-0  "
     >
-      <div className="bg-[url('./images/download.png')] z-2 fixed h-full w-full bg-cover bg-center top-0 opacity-50"></div>
+      <div className="bg-[url('./images/download.png')] z-3 fixed h-full w-full bg-cover bg-center top-0 opacity-50"></div>
       <div className="relative z-10 text-center flex flex-col gap-5 md:gap-3  text-[#ffffff] lg:mt-0">
         <h2 className="text-xl sm:text-2xl md:text-2xl lg:text-3xl font-[500px] text-[#47A025] animate__animated animate__bounce">
           Hi, I'm Janet!
