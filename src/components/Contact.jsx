@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     const { name, email, message } = formData;
 
@@ -134,8 +134,7 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-            
-          
+
             <div className="flex gap-5">
               <div>
                 <FaLinkedin className="w-8 h-8 text-[#47A025]/50" />
@@ -166,11 +165,27 @@ const Contact = () => {
         </div>
         <div className=" px-5 lg:px-10 pb-10 pt-5  flex flex-col justify-center text-center items-center   border-solid border relative    ease-in-out rounded-xl  bg-[#241023]/50 backdrop-blur shadow-2xl shadow-black/30    border-[#47A025]/50  overflow-hidden transition-all duration-300">
           <form
-            action="https://submit-form.com/BEIM0ImyA"
-            onSubmit={handleSubmit}
+            action="https://formsubmit.co/bd4e82b6a0e2de6712e90e0671657d8c"
+            // onSubmit={handleSubmit}
+            method="POST"
             className="flex flex-col  gap-5  justify-center    items-start "
           >
-            <h1 className="text-[28px] font-[400px] pb-5 xl:pb-0 ">Send Me a Message</h1>
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Contact Form Submission"
+            />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="box" />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://yourwebsite.com/thank-you.html"
+            />
+
+            <h1 className="text-[28px] font-[400px] pb-5 xl:pb-0 ">
+              Send Me a Message
+            </h1>
             <div className="flex flex-col gap-5 pb-5 xl:pb-0">
               <label htmlFor="">
                 <p className="font-bold text-[22px] text-left text-[#ffffff]">
@@ -179,8 +194,8 @@ const Contact = () => {
                 <input
                   type="text"
                   name="name"
-                  value={formData.name}
-                  onChange={handleChange}
+                  // value={formData.name}
+                  // onChange={handleChange}
                   required
                   placeholder="Enter your name"
                   className="rounded-sm font-normal text-[16px] border border-[#47A025]/50 px-3 py-2 w-[300px] md:w-[500px]"
@@ -193,8 +208,8 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
-                  value={formData.email}
-                  onChange={handleChange}
+                  // value={formData.email}
+                  // onChange={handleChange}
                   required
                   placeholder="youremail@gmail.com"
                   className="rounded-sm font-normal text-[16px] border border-[#47A025]/50 px-3 py-2 w-[300px] md:w-[500px]"
@@ -206,8 +221,8 @@ const Contact = () => {
                 </p>
                 <textarea
                   name="message"
-                  value={formData.message}
-                  onChange={handleChange}
+                  // value={formData.message}
+                  // onChange={handleChange}
                   id=""
                   placeholder="Type your detailed message here"
                   onInput={(e) => {
