@@ -14,7 +14,7 @@ import { motion } from "motion/react";
 const Skills = () => {
   return (
     <div
-      id="skills"
+     id="skills"
       className="flex flex-col items-center justify-center min-h-screen text-white relative z-2 bg-[#241023] pt-20  "
     >
       <button className="font-[500px] text-[14px] bg-[#47A025]/50 px-4 py-2 rounded-2xl">
