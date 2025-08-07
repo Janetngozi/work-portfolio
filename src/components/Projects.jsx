@@ -297,7 +297,7 @@ const Projects = () => {
         </div>
         <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px] mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
-          <a href="https://learnpronew.vercel.app/" target="_blank">
+          <a href="https://nexcent-x6m5.vercel.app/" target="_blank">
             <img
               src="/images/nexcent.png"
               alt="Project Screenshot"
@@ -307,7 +307,7 @@ const Projects = () => {
           <div class="p-5 space-y-4">
             <a
               class="text-xl font-semibold text-[#47A025]"
-              href="https://learnpronew.vercel.app/"
+              href="https://nexcent-x6m5.vercel.app/"
               target="_blank"
             >
               Nexcent
@@ -349,14 +349,14 @@ const Projects = () => {
             {/* Buttons  */}
             <div class="flex gap-4 pt-3">
               <a
-                href="https://github.com/Janetngozi/Learnpronew"
+                href="https://github.com/Janetngozi/nexcent"
                 target="_blank"
                 class="flex-1 text-center bg-gray-800 hover:bg-gray-700 py-2 px-4 rounded text-sm transition"
               >
                 View Code
               </a>
               <a
-                href="https://learnpronew.vercel.app/"
+                href="https://nexcent-x6m5.vercel.app//"
                 target="_blank"
                 class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
@@ -516,7 +516,7 @@ const Projects = () => {
         {/* Get Schooled */}
         <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px]  mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
-          <a href="https://seren-space.vercel.app/" target="_blank">
+          <a href="https://learnpronew.vercel.app/" target="_blank">
             <img
               src="/images/learnpro.png"
               alt="Project Screenshot"
@@ -526,7 +526,7 @@ const Projects = () => {
           <div class="p-5 space-y-4">
             <a
               class="text-xl font-semibold text-[#47A025]"
-              href="https://seren-space.vercel.app/"
+              href="https://learnpronew.vercel.app/"
               target="_blank"
             >
               Learn pro
@@ -568,14 +568,14 @@ const Projects = () => {
             {/* Buttons  */}
             <div class="flex gap-4 pt-3">
               <a
-                href="https://github.com/Janetngozi/Seren-space"
+                href="https://github.com/Janetngozi/Learnpronew"
                 target="_blank"
                 class="flex-1 text-center bg-gray-800 hover:bg-gray-700 py-2 px-4 rounded text-sm transition"
               >
                 View Code
               </a>
               <a
-                href="https://seren-space.vercel.app/"
+                href="https://learnpronew.vercel.app/"
                 target="_blank"
                 class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
