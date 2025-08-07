@@ -297,7 +297,7 @@ const Projects = () => {
         </div>
         <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px] mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
-          <a href="https://nexcent-xi-bay.vercel.app/" target="_blank">
+          <a href="https://learnpronew.vercel.app/" target="_blank">
             <img
               src="/images/nexcent.png"
               alt="Project Screenshot"
@@ -588,7 +588,7 @@ const Projects = () => {
         {/* Serenspace */}
         <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px] mx-5   lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
-          <a href="https://learn-pro2.vercel.app/" target="_blank">
+          <a href="https://serenspacenew.vercel.app/" target="_blank">
             <img
               src="/images/serenspace.png"
               alt="Project Screenshot"
@@ -598,7 +598,7 @@ const Projects = () => {
           <div class="p-5 space-y-4">
             <a
               class="text-xl font-semibold text-[#47A025]"
-              href="https://learn-pro2.vercel.app/"
+              href="https://serenspacenew.vercel.app/"
               target="_blank"
             >
               Seren Space
@@ -640,14 +640,14 @@ const Projects = () => {
             {/* Buttons  */}
             <div class="flex gap-4 pt-3">
               <a
-                href="https://github.com/Janetngozi/Learn-pro"
+                href="https://github.com/Janetngozi/serenspacenew"
                 target="_blank"
                 class="flex-1 text-center bg-gray-800 hover:bg-gray-700 py-2 px-4 rounded text-sm transition"
               >
                 View Code
               </a>
               <a
-                href="https://learn-pro2.vercel.app/"
+                href="https://serenspacenew.vercel.app/"
                 target="_blank"
                 class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
