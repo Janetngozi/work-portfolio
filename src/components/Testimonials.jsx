@@ -20,7 +20,7 @@ let testimonies = [
   {
     words:
       "Janet is a skilled and collaborative programmer who consistently delivers high-quality work. I've had the pleasure of working with her on several projects, and her strong technical expertise, attention to detail, and excellent communication skills make her a valuable asset to any team. I highly recommend her for any programming or software development project.",
-    images: "images/janet.jpg",
+    images: "images/emmanuel.jpeg",
     name: "Emmanuel Damilola",
     role: "Software Engineer, BethelLabs",
   },
