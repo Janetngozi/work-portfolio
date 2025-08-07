@@ -307,7 +307,7 @@ const Projects = () => {
           <div class="p-5 space-y-4">
             <a
               class="text-xl font-semibold text-[#47A025]"
-              href="https://nexcent-xi-bay.vercel.app/"
+              href="https://learnpronew.vercel.app/"
               target="_blank"
             >
               Nexcent
@@ -349,14 +349,14 @@ const Projects = () => {
             {/* Buttons  */}
             <div class="flex gap-4 pt-3">
               <a
-                href="https://github.com/Janetngozi/nexcent"
+                href="https://github.com/Janetngozi/Learnpronew"
                 target="_blank"
                 class="flex-1 text-center bg-gray-800 hover:bg-gray-700 py-2 px-4 rounded text-sm transition"
               >
                 View Code
               </a>
               <a
-                href="https://nexcent-xi-bay.vercel.app/"
+                href="https://learnpronew.vercel.app/"
                 target="_blank"
                 class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
