@@ -27,7 +27,7 @@ const Experience = () => {
               </button>
             </div>
 
-            <ul className="list-none space-y-2">
+            <ul className="list-none space-y-2 font-normal">
               <li className="flex gap-2">
                 <TiTick className="text-[#47A025]/50 h-17 w-17" />
                 Collaborate in a dynamic 3-person frontend team to bring user
@@ -87,7 +87,7 @@ const Experience = () => {
               </button>
             </div>
 
-            <ul className="list-none space-y-2">
+            <ul className="list-none space-y-2 font-normal">
               <li className="flex gap-2">
                 <TiTick className="text-[#47A025]/50 h-19 w-19" />
                 Built and deployed over 15+ responsive websites and web

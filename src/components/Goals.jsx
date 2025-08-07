@@ -21,7 +21,7 @@ const Goals = () => {
             </span>
             Short-Term Goal
           </div>
-          <p>
+          <p className="font-normal">
             To solidify my frontend development skills by building a diverse
             portfolio of responsive and interactive web projects. I aim to
             secure paid freelance gigs or internship opportunities, grow my
@@ -36,7 +36,7 @@ const Goals = () => {
             </span>
             Mid-Term Goal
           </div>
-          <p>
+          <p className="font-normal">
             To become a highly sought-after frontend developer with advanced
             proficiency in JavaScript frameworks like React and Next.js. I
             intend to contribute to real-world projects, work remotely for a
@@ -52,7 +52,7 @@ const Goals = () => {
             </span>
             Long-Term Goal
           </div>
-          <p>
+          <p className="font-normal">
             To establish myself as a full-stack developer and tech entrepreneur,
             leading or co-founding a profitable software product or digital
             agency. I aim to speak at tech events, grow a personal brand that
