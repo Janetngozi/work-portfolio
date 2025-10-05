@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <div className="lg:flex lg:justify-center lg:gap-[100px] lg:items-center mt-8">
         <img
-          src="./images/janet.jpg"
+          src="./images/ngozi.png"
           alt=""
           className="lg:w-1/4 rounded-xl lg:h-[100%] w-[250px] xs:w-[300px]  ml-15 sm:ml-20 md:ml-45  md:w-[400px] mb-10 lg:mb-0 lg:ml-0 shadow-2xl"
         />
