@@ -89,9 +89,9 @@ const Projects = () => {
         </div>
         <div className="max-w-xs md:max-w-sm md:w-full lg:max-w-md w-[280px] mx-5  lg:mx-auto text-white rounded-xl  overflow-hidden border  bg-[#241023] transition-colors duration-500 ease-in-out   backdrop-blur shadow-2xl shadow-black/30   border-[#47A025]/50  hover:border-[#47A025]/50">
           {/* Project Screenshot */}
-          <a href="https://food-wagon-psi.vercel.app/" target="_blank">
+          <a href="https://extensionlist-flame.vercel.app/" target="_blank">
             <img
-              src="/images/foodwagon.png"
+              src="/images/extension.jpg"
               alt="Project Screenshot"
               class="w-full h-52 object-cover"
             />
@@ -99,21 +99,20 @@ const Projects = () => {
           <div class="p-5 space-y-4">
             <a
               class="text-xl font-semibold text-[#47A025]"
-              href="https://food-wagon-psi.vercel.app/"
+              href="https://extensionlist-flame.vercel.app/"
               target="_blank"
             >
-              Food Wagon
+              Extension List
             </a>
             <p class="text-gray-300 text-sm">
-              A user-focused food delivery frontend application where users can
-              explore different dishes, view food details, and simulate the
-              ordering process—built to reflect the structure of a real-world
-              food delivery platform.
+              A sleek browser extensions dashboard that allows users to manage,
+              activate, or remove installed extensions through a clean,
+              responsive interface.
             </p>
             {/* Meta Info */}
             <div class="flex justify-between items-center text-sm text-gray-400">
               <span class="flex items-center gap-1">
-                <CalendarDays /> <span>Start: 11 Mar 2025</span>
+                <CalendarDays /> <span>Start: 11 Oct 2025</span>
               </span>
               <span class="flex items-center gap-1 pr-20">
                 <Cable />
@@ -141,14 +140,14 @@ const Projects = () => {
             {/* Buttons  */}
             <div class="flex gap-4 pt-3">
               <a
-                href="https://github.com/Janetngozi/Food-wagon"
+                href="https://github.com/Janetngozi/extensionlist"
                 target="_blank"
                 class="flex-1 text-center bg-gray-800 hover:bg-gray-700 py-2 px-4 rounded text-sm transition"
               >
                 View Code
               </a>
               <a
-                href="https://food-wagon-psi.vercel.app/"
+                href="https://extensionlist-flame.vercel.app/"
                 target="_blank"
                 class="flex-1 text-center bg-[#47A025]/50 hover:opacity-90 py-2 px-4 rounded text-sm transition"
               >
