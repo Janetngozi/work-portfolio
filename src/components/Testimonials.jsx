@@ -26,10 +26,10 @@ let testimonies = [
   },
   {
     words:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo perferendis pariatur expedita officia beatae temporibus ipsum suscipit error vel saepe hic aliquid perspiciatis at quis ipsam consequuntur rerum asperiores, voluptate possimus maiores similique ab est? Debitis corporis molestiae dolore, maxime itaque cupiditate vel possimus provident placeat. Odit id labore eos?",
-    images: "images/janet.jpg",
-    name: "Ariana Grande",
-    role: "Lead HR, Sons Limited",
+      "Janet is an exceptional frontend developer who consistently delivers high-quality work. Her attention to detail, creativity, and problem-solving skills are impressive. She is a great team player and always willing to go the extra mile to ensure project success. I highly recommend Janet for any frontend development role.",
+    images: "images/victor.jpeg",
+    name: "Ajayi Victor Olajuwon",
+    role: "AI Expert, HopMembers",
   },
 ];
 
